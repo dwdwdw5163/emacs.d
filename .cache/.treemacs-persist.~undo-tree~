@@ -1,0 +1,218 @@
+(undo-tree-save-format-version . 1)
+"ff2a6ec7c3056f9e0201c9aa6d2964c3c2517dc4"
+[nil nil nil nil (25957 38220 139663 0) 0 nil]
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25952 32141 929322 986000)) nil (25957 38220 139658 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25957 38220 142291 898000)) nil (25965 23124 266460 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25965 23124 270349 145000)) nil (25965 24548 224501 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25965 24548 226557 150000)) nil (25965 24603 440951 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25965 24603 442991 944000)) nil (25965 25572 397598 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25965 25572 399264 94000)) nil (25965 26651 169181 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25965 26651 171518 488000)) nil (25966 37073 487759 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25966 37073 490042 853000)) nil (25966 37452 659587 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25966 37452 662809 412000)) nil (25973 35816 937641 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25973 35816 940984 192000)) nil (25989 34275 596682 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25989 34275 601071 736000)) nil (25996 65209 120896 0) 0 nil])
+([nil nil ((1 . 81) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25996 65209 124576 410000)) nil (25999 59836 294105 0) 0 nil])
+([nil nil ((1 . 81) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** test
+ - path :: ~/Projects/test
+" . 1) (t 25999 59836 296438 676000)) nil (25999 60651 160109 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** test
+ - path :: ~/Projects/test
+" . 1) (t 25999 60651 162582 569000)) nil (25999 60977 288270 0) 0 nil])
+([nil nil ((1 . 46) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25999 60977 291075 617000)) nil (25999 61040 210229 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+" . 1) (t 25999 61040 212644 790000)) nil (25999 61059 890816 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 25999 61059 892986 407000)) nil (25999 61096 2825 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 25999 61096 5900 928000)) nil (25999 64344 686303 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 25999 64344 688669 622000)) nil (26000 367 526421 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26000 367 529227 134000)) nil (26000 10025 108473 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26000 10025 112378 76000)) nil (26001 21065 278221 0) 0 nil])
+([nil nil ((1 . 136) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26001 21065 281894 966000)) nil (26001 25035 267397 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+** laser_test
+ - path :: ~/Projects/laser_test
+" . 1) (t 26001 25035 270024 169000)) nil (26001 27650 759060 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26001 27650 761857 294000)) nil (26001 41031 315659 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26001 41031 319109 665000)) nil (26005 7165 635999 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 7165 639312 804000)) nil (26005 10238 616595 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 10238 620381 362000)) nil (26005 10277 950162 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 10277 952553 434000)) nil (26005 10472 561268 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 10472 563576 671000)) nil (26005 10581 143686 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 10581 146077 680000)) nil (26005 12140 348913 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 12140 351504 641000)) nil (26005 12304 939716 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 12304 941955 458000)) nil (26005 12454 781624 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 12454 784029 653000)) nil (26005 13312 500987 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 13312 503234 483000)) nil (26005 13742 235941 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 13742 239671 834000)) nil (26005 23434 314177 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 23434 317806 239000)) nil (26005 23782 875848 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . 1) (t 26005 23782 879064 684000)) nil (26006 23454 76671 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . -1) (t 26006 25073 29769 537000)) nil (26006 25536 150465 0) 0 nil])
+([nil nil ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . -1) (t 26006 25536 154299 871000)) nil (26006 25674 457788 0) 0 nil])
+([nil current ((1 . 89) ("* Default
+** Rust
+ - path :: ~/Projects/Rust
+** led_test
+ - path :: ~/Projects/led_test
+" . -1) (t 26006 25674 460524 334000)) nil (26006 26211 223964 0) 0 nil])
+nil

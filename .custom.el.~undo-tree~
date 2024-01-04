@@ -1,0 +1,85 @@
+(undo-tree-save-format-version . 1)
+"c86bc82e077134bc08cca8257c7276d72871f018"
+[nil nil nil nil (26006 25642 672660 0) 0 nil]
+([nil nil ((351 . 590) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -351) (348 . 350) (#("
+" 0 1 (fontified nil)) . -348) (267 . 349) (#(" " 0 1 (fontified nil)) . 267) (1 . 268) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(rustic-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu)))" 0 535 (fontified nil)) . -1) (t 26006 24705 305873 630000)) nil (26006 25642 672654 0) 0 nil])
+([nil nil ((405 . 644) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -405) (402 . 404) (#("
+" 0 1 (fontified nil)) . -402) (321 . 403) (#(" " 0 1 (fontified nil)) . 321) (1 . 322) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default)))" 0 349 (fontified nil)) . -1) (t 26006 25642 677129 950000)) nil (26006 25645 786047 0) 0 nil])
+([nil nil ((351 . 590) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -351) (348 . 350) (#("
+" 0 1 (fontified nil)) . -348) (267 . 349) (#(" " 0 1 (fontified nil)) . 267) (1 . 268) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default)))" 0 403 (fontified nil)) . -1) (t 26006 25645 789441 42000)) nil (26006 25735 321558 0) 0 nil])
+([nil nil ((405 . 644) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -405) (402 . 404) (#("
+" 0 1 (fontified nil)) . -402) (321 . 403) (#(" " 0 1 (fontified nil)) . 321) (1 . 322) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default)))" 0 349 (fontified nil)) . -1) (t 26006 25735 326597 551000)) nil (26006 25743 907760 0) 0 nil])
+([nil nil ((405 . 644) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -405) (402 . 404) (#("
+" 0 1 (fontified nil)) . -402) (321 . 403) (#(" " 0 1 (fontified nil)) . 321) (1 . 322) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default)))" 0 403 (fontified nil)) . -1) (t 26006 25743 911128 785000)) nil (26006 25779 268468 0) 0 nil])
+([nil current ((405 . 644) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -405) (402 . 404) (#("
+" 0 1 (fontified nil)) . -402) (321 . 403) (#(" " 0 1 (fontified nil)) . 321) (1 . 322) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default)))" 0 403 (fontified nil)) . -1) (t 26006 25779 272318 352000)) nil (26006 25967 470374 0) 0 nil])
+nil

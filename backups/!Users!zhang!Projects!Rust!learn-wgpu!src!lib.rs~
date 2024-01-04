@@ -1,0 +1,125 @@
+use tracing::info;
+use wasm_bindgen::prelude::*;
+
+use tracing_web::{MakeWebConsoleWriter, performance_layer};
+use tracing_subscriber::fmt::format::Pretty;
+use tracing_subscriber::fmt::time::UtcTime;
+use tracing_subscriber::prelude::*;
+
+use winit::{
+    event::*,
+    event_loop::EventLoop,
+    window::WindowBuilder, keyboard::{KeyCode, PhysicalKey},
+};
+
+// lib.rs
+use winit::window::Window;
+
+struct State {
+    surface: wgpu::Surface,
+    device: wgpu::Device,
+    queue: wgpu::Queue,
+    config: wgpu::SurfaceConfiguration,
+    size: winit::dpi::PhysicalSize<u32>,
+    // The window must be declared after the surface so
+    // it gets dropped after it as the surface contains
+    // unsafe references to the window's resources.
+    window: Window,
+}
+
+impl State {
+    // Creating some of the wgpu types requires async code
+    async fn new(window: Window) -> Self {
+        todo!()
+    }
+
+    pub fn window(&self) -> &Window {
+        &self.window
+    }
+
+    fn resize(&mut self, new_size: winit::dpi::PhysicalSize<u32>) {
+        todo!()
+    }
+
+    fn input(&mut self, event: &WindowEvent) -> bool {
+        todo!()
+    }
+
+    fn update(&mut self) {
+        todo!()
+    }
+
+    fn render(&mut self) -> Result<(), wgpu::SurfaceError> {
+        todo!()
+    }
+}
+
+
+#[cfg_attr(target_arch = "wasm32", wasm_bindgen(start))]
+pub fn run() {
+    cfg_if::cfg_if! {
+	if #[cfg(target_arch = "wasm32")] {
+	    let fmt_layer = tracing_subscriber::fmt::layer()
+		.with_ansi(false) // Only partially supported across browsers
+		.without_time()   // std::time is not available in browsers
+		.with_writer(MakeWebConsoleWriter::new()); // write events to the console
+	    let perf_layer = performance_layer().with_details_from_fields(Pretty::default());
+
+	    tracing_subscriber::registry()
+		.with(fmt_layer)
+		.with(perf_layer)
+		.init();
+	    
+	} else {
+	    tracing_subscriber::fmt::init();
+	}
+    }
+
+    info!("Create Window");
+    let event_loop = EventLoop::new().unwrap();
+    let window = WindowBuilder::new()
+        .with_title("Learn Wgpu")
+	.build(&event_loop)
+	.unwrap();
+
+    #[cfg(target_arch = "wasm32")]
+    {
+	info!("WASM32 Init");	
+	use winit::platform::web::WindowExtWebSys;
+	// Winit prevents sizing with CSS, so we have to set
+	// the size manually when on web.
+	use winit::dpi::PhysicalSize;
+	window.set_resize_increments(Some(PhysicalSize::new(450, 400)));
+	
+	web_sys::window()
+            .and_then(|win| win.document())
+            .and_then(|doc| {
+		let dst = doc.get_element_by_id("wasm-example")?;
+		let canvas = web_sys::Element::from(window.canvas().unwrap());
+		dst.append_child(&canvas).ok()?;
+		Some(())
+            })
+            .expect("Couldn't append canvas to document body.");
+    }
+
+    event_loop.run(move |event, elwt| match event {
+        Event::WindowEvent {
+            ref event,
+            window_id,
+        } if window_id == window.id() => match event {
+            WindowEvent::CloseRequested
+            | WindowEvent::KeyboardInput {
+                event:
+                    KeyEvent {
+                        state: ElementState::Pressed,
+                        physical_key: PhysicalKey::Code(KeyCode::Escape),
+                        ..
+                    },
+                ..
+            } => elwt.exit(),
+            _ => {}
+        },
+        _ => {}
+    }).unwrap();
+}
+
