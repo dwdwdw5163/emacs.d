@@ -30,6 +30,13 @@
 (global-auto-revert-mode t)
 
 
+(setq gc-cons-threshold (* 100 1024 1024)
+      read-process-output-max (* 1024 1024)
+      treemacs-space-between-root-nodes nil
+      company-idle-delay 0.0
+      company-minimum-prefix-length 1
+      lsp-idle-delay 0.1)  ;; clangd is fast
+
 ;; 以下用来 bootstrap use-package 自己。在上文设置好软件源后，
 
 ;; 如果 use-package 没安装
@@ -180,3 +187,11 @@
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
+
+
+(use-package yasnippet
+  :config
+  (yas-global-mode 1))
+
+
+(use-package wgsl-mode)

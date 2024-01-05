@@ -1,0 +1,18 @@
+[package]
+name = "rs-wgpu"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+bytemuck = { version = "1.14.0", features = ["derive"] }
+cgmath = "0.18.0"
+futures = "0.3.30"
+pollster = "0.3.0"
+rand = "0.8.5"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+wgpu = "0.18.0"
+winit = "0.29.8"

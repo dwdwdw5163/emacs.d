@@ -1,1 +1,1 @@
-("~/Projects/Rust/learn-wgpu/" "~/Projects/led_test/")
+("~/.emacs.d/" "~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/winit-0.29.8/" "~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/raw-window-handle-0.6.0/" "~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wgpu-0.18.0/" "~/Projects/Rust/rs-wgpu/" "~/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tracing-0.1.40/" "~/Projects/led_test/")
