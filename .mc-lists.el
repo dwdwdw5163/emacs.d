@@ -3,7 +3,11 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        c-electric-delete-forward
+        c-electric-paren
         handle-switch-frame
+        keyboard-escape-quit
+        mouse-wheel-text-scale
         ))
 
 (setq mc/cmds-to-run-once

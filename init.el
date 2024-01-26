@@ -23,7 +23,6 @@
 (load custom-file)
 
 
-(add-to-list 'image-types 'svg)
 (delete-selection-mode t)
 (column-number-mode t)
 (global-undo-tree-mode)
