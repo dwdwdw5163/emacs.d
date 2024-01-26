@@ -3,3 +3,5 @@
  - path :: ~/Projects/Rust
 ** led_test
  - path :: ~/Projects/led_test
+** wh_robot
+ - path :: ~/Projects/wh_robot

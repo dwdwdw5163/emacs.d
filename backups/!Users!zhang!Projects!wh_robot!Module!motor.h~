@@ -1,0 +1,28 @@
+#ifndef __MOTOR_H__
+#define __MOTOR_H__
+
+#include <stdint.h>
+typedef void (*motor_pid_fn)(void *motor, float error, float target);
+
+struct motor_i {
+  motor_pid_fn motor_pid;
+};
+
+struct Motor {
+  const struct motor_i *interface;
+  float kp, ki, kd;
+  float target;
+  float speed;
+  uint32_t pulse_count;
+};
+
+
+void motor_pid(struct Motor *self, float error, float target);
+
+static const struct motor_i motor_interface = {
+  .motor_pid = (motor_pid_fn)motor_pid,
+};
+
+struct Motor *motor_new();
+
+#endif

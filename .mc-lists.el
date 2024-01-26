@@ -4,9 +4,12 @@
 (setq mc/cmds-to-run-for-all
       '(
         handle-switch-frame
+        ignore-preserving-kill-region
+        treemacs-leftclick-action
         ))
 
 (setq mc/cmds-to-run-once
       '(
         lsp-ui-doc--handle-mouse-movement
+        mouse-set-region
         ))

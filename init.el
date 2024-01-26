@@ -28,7 +28,8 @@
 (column-number-mode t)
 (global-undo-tree-mode)
 (global-auto-revert-mode t)
-
+(global-set-key "\C-cc" 'comment-region)
+(global-set-key "\C-cu" 'uncomment-region)
 
 (setq gc-cons-threshold (* 100 1024 1024)
       read-process-output-max (* 1024 1024)
@@ -119,7 +120,8 @@
         ;; 查询符号引用：使用 LSP 来查询。通常是 M-?
         ([remap xref-find-definitions] . lsp-ui-peek-find-definitions)
         ;; 该文件里的符号列表：类、方法、变量等。前提是语言服务支持本功能。
-        ("C-c u" . lsp-ui-imenu))
+        ;;("C-c u" . lsp-ui-imenu)
+	)
   ;; 当 lsp 被激活时自动激活 lsp-ui
   :hook (lsp-mode . lsp-ui-mode)
   :init
@@ -183,7 +185,8 @@
 (use-package treemacs
   :bind ("C-c C-t" . treemacs))
 
-(use-package undo-tree)
+(use-package undo-tree
+  :config (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo"))))
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))

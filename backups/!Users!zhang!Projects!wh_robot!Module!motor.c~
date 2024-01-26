@@ -1,0 +1,24 @@
+#include "motor.h"
+#include <assert.h>
+#include <stdlib.h>
+
+struct Motor *motor_new() {
+  struct Motor *self;
+  self = malloc(sizeof(struct Motor));
+  assert(self != NULL);
+
+  self->interface = &motor_interface;
+
+  return self;
+}
+
+void motor_drop(struct Motor *self) {
+  free(self);
+}
+
+void motor_pid(struct Motor *self, float error, float target) {
+
+  
+}
+
+
