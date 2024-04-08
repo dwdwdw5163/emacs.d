@@ -1,0 +1,8 @@
+(undo-tree-save-format-version . 1)
+"419821e096a0f9c1b3d44d0655828fa5b92594ba"
+[nil nil nil nil (26041 10464 388637 533000) 0 nil]
+([nil current ((#("lib" 0 3 (face font-lock-string-face fontified t)) . -178) (undo-tree-id7 . -2) (undo-tree-id8 . -3) (undo-tree-id9 . -2) (undo-tree-id10 . -2) (undo-tree-id11 . -2) (undo-tree-id12 . -2) (undo-tree-id13 . -2) (undo-tree-id14 . -2) (undo-tree-id15 . -3) 181 (t 26041 10464 944930 177000)) nil (26041 10856 748005 374000) 0 nil] [nil nil ((243 . 244) (t 26041 9984 231567 330000)) ((#("#" 0 1 (face font-lock-comment-delimiter-face fontified t)) . 243) (undo-tree-id5 . -1) (undo-tree-id6 . -1)) (26041 10464 11583 201000) 0 nil])
+nil
+([nil nil ((244 . 245)) ((#(" " 0 1 (face font-lock-comment-delimiter-face fontified t)) . 244)) (26041 10463 788118 81000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 190) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (#("#" 0 1 (face font-lock-comment-delimiter-face fontified t)) . 190) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1)) ((190 . 191) (190 . 191) (t 26041 10456 301596 313000)) (26041 10456 255170 602000) 0 nil])
+nil

@@ -1,0 +1,10 @@
+(undo-tree-save-format-version . 1)
+"a54f21d480bdefd24f79813d6eaa0e51a1c186d3"
+[nil nil nil nil (26039 42051 326566 369000) 0 nil]
+([nil nil ((#("yakf = \"0.1.12\"" 0 4 (face font-lock-variable-name-face fontified t) 4 7 (fontified t) 7 15 (face font-lock-string-face fontified t)) . 193) (undo-tree-id1 . -15) (undo-tree-id2 . -15) (undo-tree-id3 . -15) (undo-tree-id4 . -15) (undo-tree-id5 . -15) (undo-tree-id6 . -15) (undo-tree-id7 . -15) (t 26039 41348 922936 361000)) nil (26039 42051 326564 545000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 193) (undo-tree-id0 . -1)) nil (26039 42051 326554 785000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -192) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) 193 (t 26039 42051 336228 738000)) nil (26039 42052 402942 695000) 0 nil])
+([nil current ((192 . 193)) nil (26039 42052 402920 477000) 0 nil])
+nil

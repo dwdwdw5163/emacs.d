@@ -1,0 +1,11 @@
+(undo-tree-save-format-version . 1)
+"d15d7dfa947b6e0685b7343b5307a1056d373039"
+[nil nil nil nil (26044 43124 529491 655000) 0 nil]
+([nil nil ((181 . 182) (t 26044 40043 126796 730000)) nil (26044 43124 529490 474000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 260 . 261) (nil fontified nil 182 . 261) (182 . 261)) nil (26044 43124 529488 803000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -261) (undo-tree-id0 . -1) (undo-tree-id1 . -1) 262) nil (26044 43124 529484 250000) 0 nil])
+([nil nil ((#("glib = { git = \"https://github.com/gtk-rs/gtk-rs-core.git\", package = \"glib\" }" 0 4 (face font-lock-variable-name-face fontified t) 4 15 (fontified t) 15 58 (face font-lock-string-face fontified t) 58 70 (fontified t) 70 76 (face font-lock-string-face fontified t) 76 78 (fontified t)) . 182) (undo-tree-id3 . -20) (undo-tree-id4 . -19) (undo-tree-id5 . -20) (undo-tree-id6 . -20) (undo-tree-id7 . -20) (undo-tree-id8 . -20) (undo-tree-id9 . -20) (undo-tree-id10 . -20) (undo-tree-id11 . -78) (t 26044 43124 570319 174000)) nil (26044 43230 506386 381000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . 182) (undo-tree-id2 . -1)) nil (26044 43230 506374 479000) 0 nil])
+nil

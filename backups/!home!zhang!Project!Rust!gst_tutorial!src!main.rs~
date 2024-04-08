@@ -1,0 +1,148 @@
+use anyhow::Error;
+use gstreamer::glib::clone::Downgrade;
+use gstreamer::{element_warning, prelude::*};
+use gstreamer::{ElementFactory};
+
+fn main() -> Result<(), Error> {
+    /* Initialize GStreamer */
+    gstreamer::init()?;
+
+    /* Create the elements */
+    let source = ElementFactory::make_with_name("uridecodebin", Some("source"))?;
+
+    /* Create the empty pipeline */
+    let pipeline = gstreamer::Pipeline::default();
+    pipeline.add_many([&source])?;
+
+    /* Set the URI to play */
+    source.set_property_from_str(
+        "uri",
+        "https://gstreamer.freedesktop.org/data/media/sintel_trailer-480p.webm",
+    );
+
+    let pipeline_weak = Downgrade::downgrade(&pipeline);
+
+    /* Connect to the pad-added signal */
+    source.connect_pad_added(move |dbin, src_pad| {
+        // Here we temporarily retrieve a strong reference on the pipeline from the weak one
+        // we moved into this callback.
+        let pipeline = pipeline_weak.upgrade().unwrap();
+
+        // Try to detect whether the raw stream decodebin provided us with
+        // just now is either audio or video (or none of both, e.g. subtitles).
+        let (is_audio, is_video) = {
+            let media_type = src_pad.current_caps().and_then(|caps| {
+                caps.structure(0).map(|s| {
+                    let name = s.name();
+                    (name.starts_with("audio/"), name.starts_with("video/"))
+                })
+            });
+
+            match media_type {
+                None => {
+                    element_warning!(
+                        dbin,
+                        gstreamer::CoreError::Negotiation,
+                        ("Failed to get media type from pad {}", src_pad.name())
+                    );
+
+                    return;
+                }
+                Some(media_type) => media_type,
+            }
+        };
+
+        // We create a closure here, calling it directly below it, because this greatly
+        // improves readability for error-handling. Like this, we can simply use the
+        // ?-operator within the closure, and handle the actual error down below where
+        // we call the insert_sink(..) closure.
+        let insert_sink = |is_audio, is_video| -> Result<(), Error> {
+            if is_audio {
+                // decodebin found a raw audiostream, so we build the follow-up pipeline to
+                // play it on the default audio playback device (using autoaudiosink).
+                let queue = gstreamer::ElementFactory::make("queue").build()?;
+                let convert = gstreamer::ElementFactory::make("audioconvert").build()?;
+                let resample = gstreamer::ElementFactory::make("audioresample").build()?;
+                let sink = gstreamer::ElementFactory::make("autoaudiosink").build()?;
+
+                let elements = &[&queue, &convert, &resample, &sink];
+                pipeline.add_many(elements)?;
+                gstreamer::Element::link_many(elements)?;
+
+                // !!ATTENTION!!:
+                // This is quite important and people forget it often. Without making sure that
+                // the new elements have the same state as the pipeline, things will fail later.
+                // They would still be in Null state and can't process data.
+                for e in elements {
+                    e.sync_state_with_parent()?;
+                }
+
+                // Get the queue element's sink pad and link the decodebin's newly created
+                // src pad for the audio stream to it.
+                let sink_pad = queue.static_pad("sink").expect("queue has no sinkpad");
+                src_pad.link(&sink_pad)?;
+            } else if is_video {
+                // decodebin found a raw videostream, so we build the follow-up pipeline to
+                // display it using the autovideosink.
+                let queue = gstreamer::ElementFactory::make("queue").build()?;
+                let convert = gstreamer::ElementFactory::make("videoconvert").build()?;
+                let scale = gstreamer::ElementFactory::make("videoscale").build()?;
+                let sink = gstreamer::ElementFactory::make("autovideosink").build()?;
+
+                let elements = &[&queue, &convert, &scale, &sink];
+                pipeline.add_many(elements)?;
+                gstreamer::Element::link_many(elements)?;
+
+                for e in elements {
+                    e.sync_state_with_parent()?
+                }
+
+                // Get the queue element's sink pad and link the decodebin's newly created
+                // src pad for the video stream to it.
+                let sink_pad = queue.static_pad("sink").expect("queue has no sinkpad");
+                src_pad.link(&sink_pad)?;
+            }
+
+            Ok(())
+        };
+
+        // When adding and linking new elements in a callback fails, error information is often sparse.
+        // GStreamer's built-in debugging can be hard to link back to the exact position within the code
+        // that failed. Since callbacks are called from random threads within the pipeline, it can get hard
+        // to get good error information. The macros used in the following can solve that. With the use
+        // of those, one can send arbitrary rust types (using the pipeline's bus) into the mainloop.
+        // What we send here is unpacked down below, in the iteration-code over sent bus-messages.
+        // Because we are using the failure crate for error details here, we even get a backtrace for
+        // where the error was constructed. (If RUST_BACKTRACE=1 is set)
+        if let Err(err) = insert_sink(is_audio, is_video) {
+            eprintln!("{}", err);
+        }
+    });
+
+    /* Start playing */
+    pipeline.set_state(gstreamer::State::Playing)?;
+
+    /* Listen to the bus */
+    let bus = pipeline
+        .bus()
+        .expect("Pipeline without bus. Shouldn't happen!");
+
+    /* Parse message */
+    for msg in bus.iter_timed(gstreamer::ClockTime::NONE) {
+        use gstreamer::MessageView;
+
+        match msg.view() {
+            MessageView::Eos(..) => break,
+            MessageView::Error(err) => {
+                pipeline.set_state(gstreamer::State::Null)?;
+                eprintln!("Received error from src {:?}: {:?}", err.src(), err.error());
+            }
+            _ => (),
+        }
+    }
+
+    /* Free resources */
+    pipeline.set_state(gstreamer::State::Null)?;
+
+    Ok(())
+}

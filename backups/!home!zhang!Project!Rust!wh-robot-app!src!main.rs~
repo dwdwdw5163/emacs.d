@@ -1,3 +1,45 @@
+use std::io::Read;
+
+use gilrs::{Event, EventType, Gilrs};
+
+
 fn main() {
-    println!("Hello, world!");
+    let mut gilrs = Gilrs::new().unwrap();
+    // Iterate over all connected gamepads
+    for (_id, gamepad) in gilrs.gamepads() {
+        println!("{} is {:?}", gamepad.name(), gamepad.power_info());
+    }
+
+    let uart = serialport::new("/dev/ttyACM0", 115_200)
+        .timeout(std::time::Duration::from_millis(10))
+        .open()
+        .expect("Failed to open port");
+
+    let mut leftx = 0.0;
+    let mut lefty = 0.0;
+
+    loop {
+        std::thread::sleep(std::time::Duration::from_millis(100));
+        // Examine new events
+        while let Some(event) = gilrs.next_event() {
+            match event {
+                Event {
+                    event: EventType::AxisChanged(gilrs::Axis::LeftStickX, value, _),
+                    ..
+                } => {
+                    leftx = value;
+                }
+                Event {
+                    event: EventType::AxisChanged(gilrs::Axis::LeftStickY, value, _),
+                    ..
+                } => {
+                    lefty = value;
+                }
+                _ => {}
+            }
+        }
+
+        println!("X: {}, Y: {}", leftx, lefty);
+        let write_buf = leftx.to_le_bytes().s
+    }
 }

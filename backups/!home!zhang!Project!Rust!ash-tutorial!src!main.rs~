@@ -1,0 +1,135 @@
+mod utility;
+
+use std::ffi::CString;
+
+use anyhow::Error;
+use ash::{vk, Instance};
+use utility::platforms;
+use winit::{
+    event::{Event, WindowEvent},
+    event_loop::{ControlFlow, EventLoop},
+    window::{Window, WindowBuilder},
+};
+
+// Constants
+const WINDOW_TITLE: &'static str = "ASH Tutorial";
+const WINDOW_WIDTH: u32 = 800;
+const WINDOW_HEIGHT: u32 = 600;
+
+struct VulkanApp {
+    window: Window,
+    _entry: ash::Entry,
+    instance: ash::Instance,
+}
+
+impl VulkanApp {
+    fn new(event_loop: &EventLoop<()>) -> Self {
+        let window = VulkanApp::create_window(event_loop).unwrap();
+        // init vulkan stuff
+        let entry = ash::Entry::new().unwrap();
+        let instance = VulkanApp::create_instance(&entry);
+
+        VulkanApp {
+            window,
+            _entry: entry,
+            instance,
+        }
+    }
+
+    fn create_window(event_loop: &EventLoop<()>) -> Result<Window, Error> {
+        let window = WindowBuilder::new()
+            .with_title(WINDOW_TITLE)
+            .with_inner_size(winit::dpi::LogicalSize::new(WINDOW_WIDTH, WINDOW_HEIGHT))
+            .build(event_loop)?;
+
+        Ok(window)
+    }
+
+    fn create_instance(entry: &ash::Entry) -> ash::Instance {
+        let app_name = CString::new("Vulkan-rs").unwrap();
+        let engine_name = CString::new("Vulkan Engine").unwrap();
+        let app_info = vk::ApplicationInfo {
+            s_type: vk::StructureType::APPLICATION_INFO,
+            p_next: std::ptr::null(),
+            p_application_name: app_name.as_ptr(),
+            application_version: vk::API_VERSION_1_0,
+            p_engine_name: engine_name.as_ptr(),
+            engine_version: vk::API_VERSION_1_0,
+            api_version: vk::API_VERSION_1_0,
+        };
+
+        let extension_names = utility::platforms::required_extension_names();
+
+        let create_info = vk::InstanceCreateInfo {
+            s_type: vk::StructureType::INSTANCE_CREATE_INFO,
+            p_next: std::ptr::null(),
+            flags: vk::InstanceCreateFlags::empty(),
+            p_application_info: &app_info,
+            pp_enabled_layer_names: std::ptr::null(),
+            enabled_layer_count: 0,
+            pp_enabled_extension_names: extension_names.as_ptr(),
+            enabled_extension_count: extension_names.len() as u32,
+        };
+
+        let instance: ash::Instance = unsafe {
+            entry
+                .create_instance(&create_info, None)
+                .expect("Failed to create instance!")
+        };
+
+        instance
+    }
+
+    fn main_loop(&self, event_loop: winit::event_loop::EventLoop<()>) {
+        // ControlFlow::Poll continuously runs the event loop, even if the OS hasn't
+        // dispatched any events. This is ideal for games and similar applications.
+        event_loop.set_control_flow(ControlFlow::Poll);
+
+        let _ = event_loop.run(move |event, elwt| {
+            match event {
+                Event::WindowEvent {
+                    event: WindowEvent::CloseRequested,
+                    ..
+                } => {
+                    println!("The close button was pressed; stopping");
+                    elwt.exit();
+                }
+                Event::AboutToWait => {
+                    // Application update code.
+
+                    // Queue a RedrawRequested event.
+                    //
+                    // You only need to call this if you've determined that you need to redraw in
+                    // applications which do not always need to. Applications that redraw continuously
+                    // can render here instead.
+                    self.window.request_redraw();
+                }
+                Event::WindowEvent {
+                    event: WindowEvent::RedrawRequested,
+                    ..
+                } => {
+                    // Redraw the application.
+                    //
+                    // It's preferable for applications that do not render continuously to render in
+                    // this event rather than in AboutToWait, since rendering in here allows
+                    // the program to gracefully handle redraws requested by the OS.
+                }
+                _ => (),
+            }
+        });
+    }
+}
+
+impl Drop for VulkanApp {
+    fn drop(&mut self) {
+        unsafe {
+            self.instance.destroy_instance(None);
+        }
+    }
+}
+
+fn main() {
+    let event_loop = EventLoop::new();
+    let vulkan_app = VulkanApp::new(event_loop);
+    vulkan_app.main_loop(event_loop);
+}

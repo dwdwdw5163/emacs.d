@@ -1,9 +1,3 @@
 * Default
-** learn_1_5
- - path :: ~/Project/learn_1_5
-** learn_wgpu
- - path :: ~/Project/Rust/learn_wgpu
-** wh_robot
- - path :: ~/Project/wh_robot
-** wh-robot-app
- - path :: ~/Project/Rust/wh-robot-app
+** Rust
+ - path :: ~/Project/Rust

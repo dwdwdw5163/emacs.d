@@ -96,6 +96,7 @@
 	   c-mode
 	   c++-mode
 	   rustic-mode
+           glsl-mode
            ;; ......
            ) . lsp))
   :init ;; 在 (reuqire) 之前执行
@@ -182,7 +183,8 @@
 (use-package treemacs
   :bind ("C-c C-t" . treemacs))
 
-(use-package undo-tree)
+(use-package undo-tree
+  :config (setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo"))))
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
@@ -194,3 +196,10 @@
 
 
 (use-package wgsl-mode)
+(use-package glsl-mode)
+
+(use-package mwim
+  :ensure t
+  :bind
+  ("C-a" . mwim-beginning-of-code-or-line)
+  ("C-e" . mwim-end-of-code-or-line))

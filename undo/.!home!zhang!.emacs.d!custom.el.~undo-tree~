@@ -1,0 +1,130 @@
+(undo-tree-save-format-version . 1)
+"9bd1cc364b888b7c05b3748d42609e9f67c65faa"
+[nil nil nil nil (26036 34871 237729 884000) 0 nil]
+([nil nil ((805 . 1160) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -805) (780 . 804) (#("
+" 0 1 (fontified nil)) . -780) (513 . 781) (#(" " 0 1 (fontified nil)) . 513) (427 . 514) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-ui-doc-position 'at-point)
+ '(package-selected-packages
+   '(lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu)))" 0 734 (fontified nil)) . -1) (t 26035 56144 895793 359000)) nil (26036 34871 237725 37000) 0 nil])
+([nil nil ((810 . 1165) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Source Code Pro\" :foundry \"ADBO\" :slant normal :weight regular :height 193 :width normal)))))" 0 355 (fontified nil)) . -810) (785 . 809) (#("
+" 0 1 (fontified nil)) . -785) (513 . 786) (#(" " 0 1 (fontified nil)) . 513) (427 . 514) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-ui-doc-position 'at-point)
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu))
+ '(tool-bar-mode nil))" 0 803 (fontified nil)) . -1) (t 26036 34871 235884 666000)) nil (26037 2023 630791 650000) 0 nil])
+([nil nil ((854 . 1209) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Source Code Pro\" :foundry \"ADBO\" :slant normal :weight regular :height 193 :width normal)))))" 0 355 (fontified nil)) . -854) (829 . 853) (#("
+" 0 1 (fontified nil)) . -829) (557 . 830) (#(" " 0 1 (fontified nil)) . 557) (427 . 558) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-ui-doc-position 'at-point)
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(mwim lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu))
+ '(tool-bar-mode nil))" 0 808 (fontified nil)) . -1) (t 26037 2023 631221 637000)) nil (26041 10271 461176 415000) 0 nil])
+([nil nil ((864 . 1219) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Source Code Pro\" :foundry \"ADBO\" :slant normal :weight regular :height 193 :width normal)))))" 0 355 (fontified nil)) . -864) (839 . 863) (#("
+" 0 1 (fontified nil)) . -839) (557 . 840) (#(" " 0 1 (fontified nil)) . 557) (427 . 558) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-rust-analyzer-check-all-targets nil)
+ '(lsp-ui-doc-position 'at-point)
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(mwim lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu))
+ '(tool-bar-mode nil))" 0 852 (fontified nil)) . -1) (t 26041 10271 471584 966000)) nil (26053 505 439940 947000) 0 nil])
+([nil nil ((864 . 1219) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Source Code Pro\" :foundry \"ADBO\" :slant normal :weight regular :height 193 :width normal)))))" 0 355 (fontified nil)) . -864) (839 . 863) (#("
+" 0 1 (fontified nil)) . -839) (557 . 840) (#(" " 0 1 (fontified nil)) . 557) (427 . 558) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-rust-analyzer-check-all-targets nil)
+ '(lsp-ui-doc-position 'at-point)
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(glsl-mode mwim lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu))
+ '(tool-bar-mode nil))" 0 862 (fontified nil)) . -1) (t 26053 505 440604 140000)) nil (26116 11435 221932 609000) 0 nil])
+([nil current ((888 . 1239) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Noto Sans CJK SC\" :foundry \"GOOG\" :slant normal :weight regular :height 90 :width normal)))))" 0 355 (fontified nil)) . -888) (839 . 887) (#("
+" 0 1 (fontified nil)) . -839) (557 . 840) (#(" " 0 1 (fontified nil)) . 557) (427 . 558) (#("
+" 0 1 (fontified nil)) . -427) (346 . 428) (#(" " 0 1 (fontified nil)) . 346) (1 . 347) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-enabled-themes '(sanityinc-tomorrow-night))
+ '(custom-safe-themes
+   '(\"06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a\" default))
+ '(lsp-rust-analyzer-check-all-targets nil)
+ '(lsp-ui-doc-position 'at-point)
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(glsl-mode mwim lsp-wgsl wgsl-mode yasnippet which-key vterm use-package undo-tree rustic rainbow-delimiters multiple-cursors magit lsp-ui helm-xref helm-swoop helm-projectile helm-lsp helm-ag flycheck dap-mode ctrlf company color-theme-sanityinc-tomorrow better-defaults anzu))
+ '(tool-bar-mode nil))" 0 862 (fontified nil)) . -1) (t 26116 11435 221448 80000)) nil (26116 11534 194083 836000) 0 nil])
+nil

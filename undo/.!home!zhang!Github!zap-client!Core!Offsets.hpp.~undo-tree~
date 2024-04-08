@@ -1,0 +1,877 @@
+(undo-tree-save-format-version . 1)
+"55550ad98f600ab2170eca0f8671f59206db5e07"
+[nil nil nil nil (26115 10213 653632 518000) 0 nil]
+([nil nil ((#("d" 0 1 (fontified t)) . -268) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -1) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) (#("b" 0 1 (fontified t)) . -269) (undo-tree-id103 . -1) (undo-tree-id104 . -1) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (undo-tree-id111 . -1) (undo-tree-id112 . -1) (undo-tree-id113 . -1) (undo-tree-id114 . -1) (undo-tree-id115 . -1) (undo-tree-id116 . -1) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) (undo-tree-id140 . -1) (#("7" 0 1 (fontified t)) . -270) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) (undo-tree-id151 . -1) (undo-tree-id152 . -1) (undo-tree-id153 . -1) (undo-tree-id154 . -1) (undo-tree-id155 . -1) (undo-tree-id156 . -1) (undo-tree-id157 . -1) (undo-tree-id158 . -1) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (#("7" 0 1 (fontified t)) . -271) (undo-tree-id174 . -1) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -1) (undo-tree-id179 . -1) (undo-tree-id180 . -1) (undo-tree-id181 . -1) (undo-tree-id182 . -1) (undo-tree-id183 . -1) (undo-tree-id184 . -1) (undo-tree-id185 . -1) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) (undo-tree-id189 . -1) (undo-tree-id190 . -1) (undo-tree-id191 . -1) (undo-tree-id192 . -1) (undo-tree-id193 . -1) (undo-tree-id194 . -1) (undo-tree-id195 . -1) (undo-tree-id196 . -1) (undo-tree-id197 . -1) (undo-tree-id198 . -1) (undo-tree-id199 . -1) (undo-tree-id200 . -1) (undo-tree-id201 . -1) (#("0" 0 1 (fontified t)) . -272) (undo-tree-id202 . -1) (undo-tree-id203 . -1) (undo-tree-id204 . -1) (undo-tree-id205 . -1) (undo-tree-id206 . -1) (undo-tree-id207 . -1) (undo-tree-id208 . -1) (undo-tree-id209 . -1) (undo-tree-id210 . -1) (undo-tree-id211 . -1) (undo-tree-id212 . -1) (undo-tree-id213 . -1) (undo-tree-id214 . -1) (undo-tree-id215 . -1) (undo-tree-id216 . -1) (undo-tree-id217 . -1) (undo-tree-id218 . -1) (undo-tree-id219 . -1) (undo-tree-id220 . -1) (undo-tree-id221 . -1) (undo-tree-id222 . -1) (undo-tree-id223 . -1) (undo-tree-id224 . -1) 273 (t 26114 62349 452506 448000)) nil (26115 10213 653624 133000) 0 nil])
+([nil nil ((268 . 273)) nil (26115 10213 652377 304000) 0 nil])
+([nil nil ((#("0x2166fa8" 0 9 (fontified t)) . -362) (undo-tree-id0 . -3) (undo-tree-id1 . -9) (undo-tree-id2 . -2) (undo-tree-id3 . -2) (undo-tree-id4 . -2) (undo-tree-id5 . -2) (undo-tree-id6 . -2) (undo-tree-id7 . -2) (undo-tree-id8 . -3) (undo-tree-id9 . -3) (undo-tree-id10 . -3) (undo-tree-id11 . -3) (undo-tree-id12 . -3) (undo-tree-id13 . -3) (undo-tree-id14 . -3) (undo-tree-id15 . -3) (undo-tree-id16 . -3) (undo-tree-id17 . -3) (undo-tree-id18 . -3) (undo-tree-id19 . -3) (undo-tree-id20 . -3) (undo-tree-id21 . -3) (undo-tree-id22 . -3) (undo-tree-id23 . -3) (undo-tree-id24 . -3) (undo-tree-id25 . -3) (undo-tree-id26 . -3) (undo-tree-id27 . -3) (undo-tree-id28 . -3) (undo-tree-id29 . -3) (undo-tree-id30 . -3) (undo-tree-id31 . -3) (undo-tree-id32 . -3) (undo-tree-id33 . -3) (undo-tree-id34 . -3) (undo-tree-id35 . -3) (undo-tree-id36 . -3) (undo-tree-id37 . -3) (undo-tree-id38 . -3) (undo-tree-id39 . -3) (undo-tree-id40 . -3) (undo-tree-id41 . -1) (undo-tree-id42 . -2) (undo-tree-id43 . -3) (undo-tree-id44 . -4) (undo-tree-id45 . -5) (undo-tree-id46 . -6) (undo-tree-id47 . -7) (undo-tree-id48 . -8) (undo-tree-id49 . -9) (undo-tree-id50 . -9) (undo-tree-id51 . -9) (undo-tree-id52 . -9) (undo-tree-id53 . -9) (undo-tree-id54 . -9) (undo-tree-id55 . -9) (undo-tree-id56 . -9) (undo-tree-id57 . -9) (undo-tree-id58 . -9) (undo-tree-id59 . -9) 371) nil (26115 10213 652374 72000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 370 . 371) (nil fontified nil 362 . 371) (362 . 371)) nil (26115 10213 652313 787000) 0 nil])
+([nil nil ((6889 . 6890) 371) nil (26115 10213 652309 64000) 0 nil])
+([nil nil ((#("0x1db8548" 0 9 (fontified t)) . -454) (undo-tree-id225 . -9) (undo-tree-id226 . -1) (undo-tree-id227 . -2) (undo-tree-id228 . -3) (undo-tree-id229 . -4) (undo-tree-id230 . -5) (undo-tree-id231 . -6) (undo-tree-id232 . -7) (undo-tree-id233 . -8) (undo-tree-id234 . -9) (undo-tree-id235 . -9) (undo-tree-id236 . -9) (undo-tree-id237 . -9) (undo-tree-id238 . -9) (undo-tree-id239 . -9) (undo-tree-id240 . -9) (undo-tree-id241 . -9) (undo-tree-id242 . -9) 463 (t 26115 10213 662423 927000)) nil (26115 10276 794358 990000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 462 . 463) (nil fontified nil 454 . 463) (454 . 463)) nil (26115 10276 794336 642000) 0 nil])
+([nil nil ((#("0x73e0ad8" 0 9 (fontified t)) . -1064) (undo-tree-id282 . -9) (undo-tree-id283 . -1) (undo-tree-id284 . -2) (undo-tree-id285 . -3) (undo-tree-id286 . -4) (undo-tree-id287 . -5) (undo-tree-id288 . -6) (undo-tree-id289 . -7) (undo-tree-id290 . -8) (undo-tree-id291 . -9) (undo-tree-id292 . -9) (undo-tree-id293 . -9) (undo-tree-id294 . -9) (undo-tree-id295 . -9) (undo-tree-id296 . -9) (undo-tree-id297 . -9) (undo-tree-id298 . -9) (undo-tree-id299 . -9) (undo-tree-id300 . -9) (undo-tree-id301 . -9) 1073 (t 26115 10276 805761 98000)) nil (26115 10664 391291 741000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1072 . 1073) (nil fontified nil 1064 . 1073) (1064 . 1073)) nil (26115 10664 391276 131000) 0 nil])
+([nil nil ((#("0x0219e8b0" 0 10 (fontified t)) . -710) (undo-tree-id259 . -10) (undo-tree-id260 . -1) (undo-tree-id261 . -3) (undo-tree-id262 . -4) (undo-tree-id263 . -5) (undo-tree-id264 . -6) (undo-tree-id265 . -7) (undo-tree-id266 . -8) (undo-tree-id267 . -9) (undo-tree-id268 . -10) (undo-tree-id269 . -10) (undo-tree-id270 . -10) (undo-tree-id271 . -10) (undo-tree-id272 . -10) (undo-tree-id273 . -10) (undo-tree-id274 . -10) (undo-tree-id275 . -10) (undo-tree-id276 . -10) (undo-tree-id277 . -10) (undo-tree-id278 . -10) (undo-tree-id279 . -10) (undo-tree-id280 . -10) (undo-tree-id281 . -10) 720) nil (26115 10664 391274 202000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 719 . 720) (nil fontified nil 710 . 720) (710 . 720)) nil (26115 10664 391256 750000) 0 nil])
+([nil nil ((#("0x1538" 0 6 (fontified t)) . -785) (undo-tree-id243 . -6) (undo-tree-id244 . -1) (undo-tree-id245 . -2) (undo-tree-id246 . -3) (undo-tree-id247 . -4) (undo-tree-id248 . -5) (undo-tree-id249 . -6) (undo-tree-id250 . -6) (undo-tree-id251 . -6) (undo-tree-id252 . -6) (undo-tree-id253 . -6) (undo-tree-id254 . -6) (undo-tree-id255 . -6) (undo-tree-id256 . -6) (undo-tree-id257 . -6) (undo-tree-id258 . -6) 791) nil (26115 10664 391253 519000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 790 . 791) (nil fontified nil 785 . 791) (785 . 791)) nil (26115 10664 391230 494000) 0 nil])
+([nil nil ((#("0x01dad470" 0 10 (fontified t)) . -873) (undo-tree-id302 . -10) (undo-tree-id303 . -1) (undo-tree-id304 . -2) (undo-tree-id305 . -3) (undo-tree-id306 . -4) (undo-tree-id307 . -5) (undo-tree-id308 . -6) (undo-tree-id309 . -7) (undo-tree-id310 . -7) (undo-tree-id311 . -7) (undo-tree-id312 . -7) (undo-tree-id313 . -7) (undo-tree-id314 . -7) (undo-tree-id315 . -7) (undo-tree-id316 . -8) (undo-tree-id317 . -9) (undo-tree-id318 . -10) (undo-tree-id319 . -10) (undo-tree-id320 . -10) (undo-tree-id321 . -10) (undo-tree-id322 . -10) (undo-tree-id323 . -10) (undo-tree-id324 . -10) (undo-tree-id325 . -10) (undo-tree-id326 . -10) 883 (t 26115 10664 439117 974000)) nil (26115 10692 843808 305000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 882 . 883) (nil fontified nil 873 . 883) (873 . 883)) nil (26115 10692 843777 710000) 0 nil])
+([nil nil ((560 . 561) (t 26115 10692 885786 358000)) nil (26115 10775 121430 46000) 0 nil])
+([nil nil ((#(">" 0 1 (fontified t)) . -560) (undo-tree-id346 . -1) (undo-tree-id347 . -1) (undo-tree-id348 . -1) (undo-tree-id349 . -1) (undo-tree-id350 . -1) (undo-tree-id351 . -1) (undo-tree-id352 . -1) (undo-tree-id353 . -1) (undo-tree-id354 . -1) (undo-tree-id355 . -1) (undo-tree-id356 . -1) (undo-tree-id357 . -1) (undo-tree-id358 . -1) (undo-tree-id359 . -1) (undo-tree-id360 . -1) 561) nil (26115 10775 121428 516000) 0 nil])
+([nil nil ((580 . 581)) nil (26115 10775 121417 395000) 0 nil])
+([nil nil ((655 . 656)) nil (26115 10775 121416 611000) 0 nil])
+([nil nil ((#("0x073e1d58" 0 10 (fontified t)) . -1263) (undo-tree-id327 . -10) (undo-tree-id328 . -1) (undo-tree-id329 . -2) (undo-tree-id330 . -3) (undo-tree-id331 . -4) (undo-tree-id332 . -5) (undo-tree-id333 . -6) (undo-tree-id334 . -7) (undo-tree-id335 . -8) (undo-tree-id336 . -9) (undo-tree-id337 . -10) (undo-tree-id338 . -10) (undo-tree-id339 . -10) (undo-tree-id340 . -10) (undo-tree-id341 . -10) (undo-tree-id342 . -10) (undo-tree-id343 . -10) (undo-tree-id344 . -10) (undo-tree-id345 . -10) 1273) nil (26115 10775 162149 794000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1272 . 1273) (nil fontified nil 1263 . 1273) (1263 . 1273)) nil (26115 10783 740220 798000) 0 nil] [nil nil ((nil rear-nonsticky nil 19590 . 19591) (nil fontified nil 19590 . 19591) (nil fontified nil 19574 . 19590) (nil fontified nil 19211 . 19574) (nil fontified nil 19174 . 19211) (nil fontified nil 19159 . 19174) (nil fontified nil 19142 . 19159) (nil fontified nil 19117 . 19142) (nil fontified nil 19099 . 19117) (nil fontified nil 19044 . 19099) (nil fontified nil 19037 . 19044) (nil fontified nil 18632 . 19037) (nil fontified nil 18631 . 18632) (nil fontified nil 18608 . 18631) (nil fontified nil 18607 . 18608) (nil fontified nil 17537 . 18607) (nil fontified nil 17531 . 17537) (nil fontified nil 17421 . 17531) (nil fontified nil 17400 . 17421) (nil fontified nil 17074 . 17400) (nil fontified nil 17073 . 17074) (nil fontified nil 17036 . 17073) (nil fontified nil 17035 . 17036) (nil fontified nil 15900 . 17035) (nil fontified nil 15894 . 15900) (nil fontified nil 15522 . 15894) (nil fontified nil 15501 . 15522) (nil fontified nil 15500 . 15501) (nil fontified nil 15499 . 15500) (nil fontified nil 15467 . 15499) (nil fontified nil 15466 . 15467) (nil fontified nil 15426 . 15466) (nil fontified nil 15388 . 15426) (nil fontified nil 15041 . 15388) (nil fontified nil 15040 . 15041) (nil fontified nil 15002 . 15040) (nil fontified nil 15001 . 15002) (nil fontified nil 14900 . 15001) (nil fontified nil 14874 . 14900) (nil fontified nil 14643 . 14874) (nil fontified nil 14642 . 14643) (nil fontified nil 14609 . 14642) (nil fontified nil 14608 . 14609) (nil fontified nil 14476 . 14608) (nil fontified nil 14464 . 14476) (nil fontified nil 13942 . 14464) (nil fontified nil 13924 . 13942) (nil fontified nil 13749 . 13924) (nil fontified nil 13748 . 13749) (nil fontified nil 13717 . 13748) (nil fontified nil 13716 . 13717) (nil fontified nil 13498 . 13716) (nil fontified nil 13471 . 13498) (nil fontified nil 12930 . 13471) (nil fontified nil 12904 . 12930) (nil fontified nil 12881 . 12904) (nil fontified nil 12880 . 12881) (nil fontified nil 12854 . 12880) (nil fontified nil 12853 . 12854) (nil fontified nil 12503 . 12853) (nil fontified nil 12502 . 12503) (nil fontified nil 12468 . 12502) (nil fontified nil 12467 . 12468) (nil fontified nil 12388 . 12467) (nil fontified nil 12360 . 12388) (nil fontified nil 12107 . 12360) (nil fontified nil 12106 . 12107) (nil fontified nil 12077 . 12106) (nil fontified nil 12076 . 12077) (nil fontified nil 11924 . 12076) (nil fontified nil 11923 . 11924) (nil fontified nil 11891 . 11923) (nil fontified nil 11890 . 11891) (nil fontified nil 11787 . 11890) (nil fontified nil 11768 . 11787) (nil fontified nil 11751 . 11768) (nil fontified nil 11750 . 11751) (nil fontified nil 11723 . 11750) (nil fontified nil 11722 . 11723) (nil fontified nil 11646 . 11722) (nil fontified nil 11645 . 11646) (nil fontified nil 11603 . 11645) (nil fontified nil 11602 . 11603) (nil fontified nil 11532 . 11602) (nil fontified nil 11531 . 11532) (nil fontified nil 11494 . 11531) (nil fontified nil 11493 . 11494) (nil fontified nil 11245 . 11493) (nil fontified nil 11225 . 11245) (nil fontified nil 11121 . 11225) (nil fontified nil 11120 . 11121) (nil fontified nil 11092 . 11120) (nil fontified nil 11091 . 11092) (nil fontified nil 10770 . 11091) (nil fontified nil 10769 . 10770) (nil fontified nil 10746 . 10769) (nil fontified nil 10745 . 10746) (nil fontified nil 10697 . 10745) (nil fontified nil 10681 . 10697) (nil fontified nil 10115 . 10681) (nil fontified nil 10097 . 10115) (nil fontified nil 9368 . 10097) (nil fontified nil 9349 . 9368) (nil fontified nil 8762 . 9349) (nil fontified nil 8735 . 8762) (nil fontified nil 8125 . 8735) (nil fontified nil 8107 . 8125) (nil fontified nil 7986 . 8107) (nil fontified nil 7985 . 7986) (nil fontified nil 7968 . 7985) (nil fontified nil 7967 . 7968) (nil fontified nil 7578 . 7967) (nil fontified nil 7544 . 7578) (nil fontified nil 6856 . 7544) (nil fontified nil 6831 . 6856) (nil fontified nil 6292 . 6831) (nil fontified nil 6274 . 6292) (nil fontified nil 6020 . 6274) (nil fontified nil 6007 . 6020) (nil fontified nil 5712 . 6007) (nil fontified nil 5711 . 5712) (nil fontified nil 5696 . 5711) (nil fontified nil 5695 . 5696) (nil fontified nil 4507 . 5695) (nil fontified nil 4474 . 4507) (nil fontified nil 4044 . 4474) (nil fontified nil 4020 . 4044) (nil fontified nil 2531 . 4020) (nil fontified nil 2520 . 2531) (nil fontified nil 2378 . 2520) (nil fontified nil 2377 . 2378) (nil fontified nil 2364 . 2377) (nil fontified nil 2363 . 2364) (nil fontified nil 2190 . 2363) (nil fontified nil 2163 . 2190) (nil fontified nil 1893 . 2163) (nil fontified nil 1870 . 1893) (nil fontified nil 1667 . 1870) (nil fontified nil 1655 . 1667) (nil fontified nil 1263 . 1655) (1263 . 19591)) ((#("
+in_backward=0x073f2770
+in_break=0x073f2a18
+in_camin=0x0c6cfe10
+in_camout=0x0c5ffd50
+in_campitchdown=0x0c5ffd30
+in_campitchup=0x0c6cfe28
+in_camyawleft=0x0c600600
+in_camyawright=0x0c5ffd40
+in_commandermousemove=0x073f2798
+in_dodge=0x073f2968
+in_duck=0x073f29f8
+in_forward=0x073f2748
+in_graph=0x073f2868
+in_jump=0x073f2908
+in_klook=0x073f27b8
+in_left=0x073f28c8
+in_lookdown=0x073f2920
+in_lookup=0x073f2a08
+in_melee=0x073f27a8
+in_movedown=0x073f28b8
+in_moveleft=0x073f2738
+in_moveright=0x073f2760
+in_moveup=0x073f27c8
+in_offhand0=0x073f27d8
+in_offhand1=0x073f28e8
+in_offhand2=0x073f2958
+in_offhand3=0x073f2988
+in_offhand4=0x073f29c8
+in_pause_menu=0x073f28d8
+in_ping=0x073f27e8
+in_reload=0x073f2858
+in_right=0x073f28f8
+in_score=0x073f2948
+in_scriptCommand3=0x073f2848
+in_showscores=0x073f2948
+in_speed=0x073f2780
+in_strafe=0x073f2878
+in_toggle_duck=0x073f2838
+in_toggle_zoom=0x073f2888
+in_use=0x073f2978
+in_useAndReload=0x073f29d8
+in_use_alt=0x073f2828
+in_use_long=0x073f29e8
+in_variableScopeToggle=0x073f28a0
+in_walk=0x073f29a8
+in_weaponCycle=0x073f2930
+in_weapon_discard=0x073f29b8
+in_zoom=0x073f2998
+
+[ClientClasses]
+CAI_BaseNPC=0x02155ed0
+CAmbientGeneric=0x01dcd090
+CBaseAnimating=0x01d5b4c0
+CBaseAnimatingOverlay=0x01dcf5a0
+CBaseCombatCharacter=0x01dc3a10
+CBaseEntity=0x022034e0
+CBaseGrenade=0x0217ddd0
+CBaseTempEntity=0x02155c10
+CBaseToggle=0x01dd0aa0
+CBaseTrigger=0x0216da50
+CBaseVPhysicsTrigger=0x021603c0
+CBaseViewModel=0x02182670
+CBoneFollower=0x01d58410
+CBreakableProp=0x01dc2ac0
+CBreakableSurface=0x01dc9ae0
+CCarePackageInsightProp=0x01dca870
+CCascadeLight=0x01dc2940
+CColorCorrection=0x02155360
+CCrossbowBolt=0x021f4b80
+CDeathBoxProp=0x01d651f0
+CDynamicLight=0x01dd38a0
+CDynamicProp=0x021559e0
+CDynamicPropLightweight=0x01d662c0
+CEntityBlocker=0x021b1590
+CEntityDissolve=0x01dce430
+CEntityLinkPage=0x0216d150
+CEnvDecoy=0x021c0480
+CEnvWind=0x01dc2900
+CFerroProp=0x01dc73c0
+CFirstPersonProxy=0x021f05c0
+CFuncBrush=0x01dcf420
+CFuncBrushLightweight=0x01dc84a0
+CFuncMoveLinear=0x01dc74a0
+CGameRulesProxy=0x021b60a0
+CGlobalNonRewinding=0x0219c6e0
+CGrappleHook=0x021f4bc0
+CHardPointEntity=0x02163a10
+CHardPointFrontierEntity=0x02166170
+CHealthKit=0x021e5170
+CImportantOnEntSound=0x0216f390
+CInfoPlacementHelper=0x021e87a0
+CInfoTarget=0x021b2dc0
+CInfoTargetGravity=0x0217d930
+CInfoTargetMinimap=0x02182bb0
+CLootGrabber=0x02154750
+CLootRoller=0x0215f240
+CMTXEntityBase=0x021ba620
+CMTXUserInfoEntity=0x021c2e10
+CMaterialHarvester=0x01dd3a80
+CMissile=0x021edd60
+CMovieDisplay=0x01dc2b00
+CNPC_Drone=0x01dc72e0
+CNPC_Dropship=0x01dc65e0
+CNPC_SentryTurret=0x01d6b050
+CNPC_Titan=0x01dccdb0
+CParticleSystem=0x01dce3f0
+CPhysicsProp=0x01dcfc00
+CPlayer=0x01d5e400
+CPlayerDecoy=0x021c65f0
+CPlayerTasklist=0x021c2ef0
+CPlayerVehicle=0x0216a0f0
+CPlayerWaypoint=0x021c1f30
+CPointCamera=0x01dccb10
+CPortal_PointPush=0x021e8cc0
+CPostProcessController=0x01d6d1d0
+CPredictedFirstPersonProxy=0x021f0330
+CProjectile=0x021f6900
+CPropDoor=0x0217fd90
+CPropSurvival=0x01dc90a0
+CRopeKeyframe=0x021bf1d0
+CScriptMover=0x021c5df0
+CScriptMoverTrainNode=0x021babb0
+CScriptNetData=0x021c4f70
+CScriptNetDataGlobal=0x021c0b80
+CScriptNetDataGlobalNonRewind=0x021c6510
+CScriptNetData_SNDC_DEATH_BOX=0x021ba900
+CScriptNetData_SNDC_GLOBAL=0x021c1f70
+CScriptNetData_SNDC_GLOBAL_NON_REWIND=0x021ba660
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE=0x021c1970
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE_EXPANDED=0x021c5a30
+CScriptNetData_SNDC_PLAYER_GLOBAL=0x021c1230
+CScriptNetData_SNDC_TITAN_SOUL=0x021c1fb0
+CScriptProp=0x01dc8460
+CScriptTraceVolume=0x021edb60
+CShieldProp=0x01d660a0
+CSkyCamera=0x02202a20
+CStatusEffectPlugin=0x021c3150
+CTEBreakModel=0x0216b8c0
+CTEEffectDispatch=0x021614c0
+CTEExplosion=0x02161220
+CTEGibEvent=0x01dcf5e0
+CTEParticleSystem=0x0216eea0
+CTEPhysicsProp=0x02165380
+CTEProjectileTrail=0x021f7560
+CTEScriptParticleSystem=0x0219c6a0
+CTEScriptParticleSystemOnEntity=0x0219c520
+CTEScriptParticleSystemOnEntityWithPos=0x021b4380
+CTEShatterSurface=0x0216d6b0
+CTESoundDispatch=0x021609a0
+CTeam=0x0216f080
+CTitanSoul=0x01dc63b0
+CTriggerCylinderHeavy=0x021c1890
+CTriggerCylinderNetworked=0x021c37f0
+CTriggerPlayerMovement=0x021c5d10
+CTriggerPointGravity=0x021c2fd0
+CTriggerSlipSphere=0x021c0440
+CTurret=0x021f06a0
+CVFogVolume=0x01d63900
+CVGuiScreen=0x0216fdf0
+CVortexSphere=0x021f5340
+CWaterLODControl=0x02167f50
+CWeaponX=0x021fbae0
+CWorld=0x0216fd10
+CZipline=0x021ff540
+CZiplineEnd=0x021fe900
+CZiprail=0x021ffa80
+DoorMover=0x021bf860
+ScriptMoverLightweight=0x021c5a70
+
+[ClientClass.Ids]
+CAI_BaseNPC=0
+CAmbientGeneric=0
+CBaseAnimating=0
+CBaseAnimatingOverlay=0
+CBaseCombatCharacter=0
+CBaseEntity=0
+CBaseGrenade=0
+CBaseTempEntity=0
+CBaseToggle=0
+CBaseTrigger=0
+CBaseVPhysicsTrigger=0
+CBaseViewModel=0
+CBoneFollower=0
+CBreakableProp=0
+CBreakableSurface=0
+CCarePackageInsightProp=0
+CCascadeLight=0
+CColorCorrection=0
+CCrossbowBolt=0
+CDeathBoxProp=0
+CDynamicLight=0
+CDynamicProp=0
+CDynamicPropLightweight=0
+CEntityBlocker=0
+CEntityDissolve=0
+CEntityLinkPage=0
+CEnvDecoy=0
+CEnvWind=0
+CFerroProp=0
+CFirstPersonProxy=0
+CFuncBrush=0
+CFuncBrushLightweight=0
+CFuncMoveLinear=0
+CGameRulesProxy=0
+CGlobalNonRewinding=0
+CGrappleHook=0
+CHardPointEntity=0
+CHardPointFrontierEntity=0
+CHealthKit=0
+CImportantOnEntSound=0
+CInfoPlacementHelper=0
+CInfoTarget=0
+CInfoTargetGravity=0
+CInfoTargetMinimap=0
+CLootGrabber=0
+CLootRoller=0
+CMTXEntityBase=0
+CMTXUserInfoEntity=0
+CMaterialHarvester=0
+CMissile=0
+CMovieDisplay=0
+CNPC_Drone=0
+CNPC_Dropship=0
+CNPC_SentryTurret=0
+CNPC_Titan=0
+CParticleSystem=0
+CPhysicsProp=0
+CPlayer=0
+CPlayerDecoy=0
+CPlayerTasklist=0
+CPlayerVehicle=0
+CPlayerWaypoint=0
+CPointCamera=0
+CPortal_PointPush=0
+CPostProcessController=0
+CPredictedFirstPersonProxy=0
+CProjectile=0
+CPropDoor=0
+CPropSurvival=0
+CRopeKeyframe=0
+CScriptMover=0
+CScriptMoverTrainNode=0
+CScriptNetData=0
+CScriptNetDataGlobal=0
+CScriptNetDataGlobalNonRewind=0
+CScriptNetData_SNDC_DEATH_BOX=0
+CScriptNetData_SNDC_GLOBAL=0
+CScriptNetData_SNDC_GLOBAL_NON_REWIND=0
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE=0
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE_EXPANDED=0
+CScriptNetData_SNDC_PLAYER_GLOBAL=0
+CScriptNetData_SNDC_TITAN_SOUL=0
+CScriptProp=0
+CScriptTraceVolume=0
+CShieldProp=0
+CSkyCamera=0
+CStatusEffectPlugin=0
+CTEBreakModel=0
+CTEEffectDispatch=0
+CTEExplosion=0
+CTEGibEvent=0
+CTEParticleSystem=0
+CTEPhysicsProp=0
+CTEProjectileTrail=0
+CTEScriptParticleSystem=0
+CTEScriptParticleSystemOnEntity=0
+CTEScriptParticleSystemOnEntityWithPos=0
+CTEShatterSurface=0
+CTESoundDispatch=0
+CTeam=0
+CTitanSoul=0
+CTriggerCylinderHeavy=0
+CTriggerCylinderNetworked=0
+CTriggerPlayerMovement=0
+CTriggerPointGravity=0
+CTriggerSlipSphere=0
+CTurret=0
+CVFogVolume=0
+CVGuiScreen=0
+CVortexSphere=0
+CWaterLODControl=0
+CWeaponX=0
+CWorld=0
+CZipline=0
+CZiplineEnd=0
+CZiprail=0
+DoorMover=0
+ScriptMoverLightweight=0
+
+[ClientClass.Sizes]
+CAI_BaseNPC=0x1da0
+CAmbientGeneric=0x9d0
+CBaseAnimating=0x1550
+CBaseAnimatingOverlay=0x1890
+CBaseCombatCharacter=0x1bd0
+CBaseEntity=0x960
+CBaseGrenade=0x2e00
+CBaseTempEntity=0x28
+CBaseToggle=0x990
+CBaseTrigger=0x9a0
+CBaseVPhysicsTrigger=0x970
+CBaseViewModel=0x4e50
+CBoneFollower=0x970
+CBreakableProp=0x1550
+CBreakableSurface=0xdc0
+CCarePackageInsightProp=0x15e0
+CCascadeLight=0xab0
+CColorCorrection=0xab0
+CCrossbowBolt=0x2d70
+CDeathBoxProp=0x1610
+CDynamicLight=0x980
+CDynamicProp=0x15d0
+CDynamicPropLightweight=0x15d0
+CEntityBlocker=0x960
+CEntityDissolve=0x990
+CEntityLinkPage=0x1170
+CEnvDecoy=0x1550
+CEnvWind=0xad0
+CFerroProp=0x15d0
+CFirstPersonProxy=0x15b0
+CFuncBrush=0x9d0
+CFuncBrushLightweight=0x9d0
+CFuncMoveLinear=0x990
+CGameRulesProxy=0x960
+CGlobalNonRewinding=0x1170
+CGrappleHook=0x1560
+CHardPointEntity=0x9a0
+CHardPointFrontierEntity=0x9a0
+CHealthKit=0x1550
+CImportantOnEntSound=0x990
+CInfoPlacementHelper=0x980
+CInfoTarget=0x960
+CInfoTargetGravity=0x970
+CInfoTargetMinimap=0x960
+CLootGrabber=0x15e0
+CLootRoller=0x15c0
+CMTXEntityBase=0x960
+CMTXUserInfoEntity=0x1520
+CMaterialHarvester=0x15e0
+CMissile=0x2ec0
+CMovieDisplay=0xac0
+CNPC_Drone=0x1dc0
+CNPC_Dropship=0x1dd0
+CNPC_SentryTurret=0x1dc0
+CNPC_Titan=0x1e40
+CParticleSystem=0xa40
+CPhysicsProp=0x15b0
+CPlayer=0x4940
+CPlayerDecoy=0x1900
+CPlayerTasklist=0xeb0
+CPlayerVehicle=0x1be0
+CPlayerWaypoint=0xc60
+CPointCamera=0xa10
+CPortal_PointPush=0x980
+CPostProcessController=0x980
+CPredictedFirstPersonProxy=0x15d0
+CProjectile=0x2d40
+CPropDoor=0x1690
+CPropSurvival=0x1580
+CRopeKeyframe=0xe60
+CScriptMover=0x17c0
+CScriptMoverTrainNode=0xf90
+CScriptNetData=0xb70
+CScriptNetDataGlobal=0xca0
+CScriptNetDataGlobalNonRewind=0xc30
+CScriptNetData_SNDC_DEATH_BOX=0xbd0
+CScriptNetData_SNDC_GLOBAL=0xca0
+CScriptNetData_SNDC_GLOBAL_NON_REWIND=0xc30
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE=0xc60
+CScriptNetData_SNDC_PLAYER_EXCLUSIVE_EXPANDED=0xc90
+CScriptNetData_SNDC_PLAYER_GLOBAL=0xca0
+CScriptNetData_SNDC_TITAN_SOUL=0xbf0
+CScriptProp=0x1670
+CScriptTraceVolume=0x990
+CShieldProp=0x15e0
+CSkyCamera=0x960
+CStatusEffectPlugin=0x9d0
+CTEBreakModel=0x70
+CTEEffectDispatch=0xc8
+CTEExplosion=0x80
+CTEGibEvent=0x38
+CTEParticleSystem=0x38
+CTEPhysicsProp=0x60
+CTEProjectileTrail=0x58
+CTEScriptParticleSystem=0x50
+CTEScriptParticleSystemOnEntity=0x40
+CTEScriptParticleSystemOnEntityWithPos=0x58
+CTEShatterSurface=0x68
+CTESoundDispatch=0x48
+CTeam=0xaa0
+CTitanSoul=0xcf0
+CTriggerCylinderHeavy=0xaa0
+CTriggerCylinderNetworked=0x9f0
+CTriggerPlayerMovement=0x9b0
+CTriggerPointGravity=0x9c0
+CTriggerSlipSphere=0x9d0
+CTurret=0x1940
+CVFogVolume=0xa20
+CVGuiScreen=0xa10
+CVortexSphere=0x9b0
+CWaterLODControl=0x970
+CWeaponX=0x6790
+CWorld=0x1240
+CZipline=0xf90
+CZiplineEnd=0x980
+CZiprail=0x12e0
+DoorMover=0x17d0
+ScriptMoverLightweight=0x17d0
+
+[RecvTable.DT_AI_BaseNPC]
+statuseffectsdata_npc=0x0000
+m_localOrigin=0x0004
+m_hGroundEntity=0x0314
+m_iHealth=0x0318
+m_localAngles=0x0378
+m_iMaxHealth=0x0460
+m_lifeState=0x0680
+m_inventory=0x18c8
+m_fireteamSlotIndex=0x1bd0
+m_aiSprinting=0x1d4a
+m_aiNetworkFlags=0x1d6c
+m_isHologram=0x1d70
+m_title=0x1d71
+m_aiSettingsIndex=0x1d94
+m_subclass=0x1d98
+
+[RecvTableTypes.DT_AI_BaseNPC]
+@extends=DT_BaseCombatCharacter
+statuseffectsdata_npc=DT_AI_BaseNPC_StatusEffects
+m_localOrigin=Vector
+m_hGroundEntity=Int
+m_iHealth=Int
+m_localAngles=Vector
+m_iMaxHealth=Int
+m_lifeState=Int
+m_inventory=DT_WeaponInventoryActiveWeaponOnly
+m_fireteamSlotIndex=Int
+m_aiSprinting=Int
+m_aiNetworkFlags=Int
+m_isHologram=Int
+m_title=String
+m_aiSettingsIndex=Int
+m_subclass=Int
+
+[RecvTable.DT_AI_BaseNPC_StatusEffects]
+m_statusEffectsTimedNPCNV=0x1bd8
+m_statusEffectsEndlessNPCNV=0x1c20
+
+[RecvTableTypes.DT_AI_BaseNPC_StatusEffects]
+m_statusEffectsTimedNPCNV=DataTable
+m_statusEffectsEndlessNPCNV=DataTable
+
+[RecvTable.DT_AmbientGeneric]
+m_radius=0x0960
+m_isEnabled=0x0964
+m_networkTableSoundID=0x0970
+m_networkedSegmentEndpointWorldSpace=0x0978
+m_hasPolylineSegments=0x0984
+
+[RecvTableTypes.DT_AmbientGeneric]
+@extends=DT_BaseEntity
+m_radius=Float
+m_isEnabled=Int
+m_networkTableSoundID=Int
+m_networkedSegmentEndpointWorldSpace=Vector
+m_hasPolylineSegments=Int
+
+[RecvTable.DT_AnimRelativeData]
+m_animInitialPos=0x0000
+m_animInitialVel=0x000c
+m_animInitialRot=0x0018
+m_animInitialCorrectPos=0x0028
+m_animInitialCorrectRot=0x0034
+m_animEntityToRefOffset=0x0044
+m_animEntityToRefRotation=0x0050
+m_animBlendBeginTime=0x0060
+m_animBlendEndTime=0x0064
+m_animScriptSequence=0x0068
+m_animScriptModel=0x006c
+m_animIgnoreParentRot=0x0070
+m_animMotionMode=0x0074
+
+[RecvTableTypes.DT_AnimRelativeData]
+m_animInitialPos=Vector
+m_animInitialVel=Vector
+m_animInitialRot=Rotation
+m_animInitialCorrectPos=Vector
+m_animInitialCorrectRot=Rotation
+m_animEntityToRefOffset=Vector
+m_animEntityToRefRotation=Rotation
+m_animBlendBeginTime=Time
+m_animBlendEndTime=Time
+m_animScriptSequence=Int
+m_animScriptModel=Int
+m_animIgnoreParentRot=Int
+m_animMotionMode=Int
+
+[RecvTable.DT_BaseAnimating]
+serveranimdata=0x0000
+m_animPlaybackRate=0x0010
+m_animModelIndex=0x0014
+m_nNewSequenceParity=0x0018
+m_animFrozen=0x0022
+m_bClientSideRagdoll=0x0023
+m_vecForce=0x0024
+m_flPoseParameter=0x0030
+m_flEstIkOffset=0x0090
+m_passDamageToParent=0x06ac
+m_animNetworkFlags=0x0988
+m_animActive=0x098c
+m_animCollisionEnabled=0x098f
+m_animRelativeToGroundEnabled=0x0990
+m_animPlantingEnabled=0x0991
+m_animRelativeData=0x0994
+m_syncingWithEntity=0x0a84
+m_predictedAnimEventData=0x0a88
+m_nRagdollImpactFXTableId=0x0af4
+m_flSkyScaleStartValue=0x0af8
+m_flSkyScaleEndValue=0x0afc
+m_flSkyScaleStartTime=0x0b00
+m_flSkyScaleEndTime=0x0b04
+m_SequenceTransitioner=0x0b20
+m_itemFlavorGUID=0x0d4c
+m_nSkin=0x0d58
+m_skinMod=0x0d5c
+m_nBody=0x0d60
+m_camoIndex=0x0d64
+m_nForceBone=0x0da0
+m_bSequenceFinished=0x0e04
+m_lockedAnimDeltaYaw=0x0e08
+m_flModelScale=0x0e10
+
+[RecvTableTypes.DT_BaseAnimating]
+@extends=DT_BaseEntity
+serveranimdata=DT_ServerAnimationData
+m_animPlaybackRate=Float
+m_animModelIndex=Int
+m_nNewSequenceParity=Int
+m_animFrozen=Int
+m_bClientSideRagdoll=Int
+m_vecForce=Vector
+m_flPoseParameter=DataTable
+m_flEstIkOffset=Float
+m_passDamageToParent=Int
+m_animNetworkFlags=Int
+m_animActive=Int
+m_animCollisionEnabled=Int
+m_animRelativeToGroundEnabled=Int
+m_animPlantingEnabled=Int
+m_animRelativeData=DT_AnimRelativeData
+m_syncingWithEntity=Int
+m_predictedAnimEventData=DT_PredictedAnimEventData
+m_nRagdollImpactFXTableId=Int
+m_flSkyScaleStartValue=Float
+m_flSkyScaleEndValue=Float
+m_flSkyScaleStartTime=Time
+m_flSkyScaleEndTime=Time
+m_SequenceTransitioner=DT_SequenceTransitioner
+m_itemFlavorGUID=Int
+m_nSkin=Int
+m_skinMod=Int
+m_nBody=Int
+m_camoIndex=Int
+m_nForceBone=Int
+m_bSequenceFinished=Int
+m_lockedAnimDeltaYaw=Float
+m_flModelScale=Float
+
+[RecvTable.DT_BaseAnimatingOverlay]
+overlay_vars=0x0000
+m_animOverlayIsActive=0x0008
+m_animOverlayStartTime=0x0014
+m_animOverlayStartCycle=0x0038
+m_animOverlayPlaybackRate=0x005c
+m_animOverlayModelIndex=0x0080
+m_animOverlaySequence=0x00a4
+m_animOverlayWeight=0x00b8
+m_animOverlayOrder=0x00dc
+m_animOverlayAnimTime=0x0100
+m_animOverlayFadeInDuration=0x0124
+m_animOverlayFadeOutDuration=0x0148
+
+[RecvTableTypes.DT_BaseAnimatingOverlay]
+@extends=DT_BaseAnimating
+overlay_vars=DT_OverlayVars
+m_animOverlayIsActive=DataTable
+m_animOverlayStartTime=DataTable
+m_animOverlayStartCycle=DataTable
+m_animOverlayPlaybackRate=DataTable
+m_animOverlayModelIndex=DataTable
+m_animOverlaySequence=DataTable
+m_animOverlayWeight=DataTable
+m_animOverlayOrder=DataTable
+m_animOverlayAnimTime=DataTable
+m_animOverlayFadeInDuration=DataTable
+m_animOverlayFadeOutDuration=DataTable
+
+[RecvTable.DT_BaseCombatCharacter]
+bcc_localdata=0x0000
+m_weaponGettingSwitchedOut=0x0008
+m_showActiveWeapon3p=0x0010
+m_vecViewOffset.x=0x0034
+m_vecViewOffset.y=0x0038
+m_vecViewOffset.z=0x003c
+m_cloakEndTime=0x01cc
+m_cloakFadeInEndTime=0x01d0
+m_cloakFadeOutStartTime=0x01d4
+m_cloakFadeInDuration=0x01d8
+m_cloakFlickerAmount=0x01dc
+m_cloakFlickerEndTime=0x01e0
+m_networkedFlags=0x02c8
+m_deathVelocity=0x0350
+m_minimapData=0x0848
+m_nameVisibilityFlags=0x0898
+m_bIsPlayerOverheating=0x1890
+m_playerOverheatValue=0x1894
+m_timeLastGeneratedPlayerOverheat=0x1898
+m_lastFiredTime=0x18a0
+m_lastFiredWeapon=0x18a4
+m_raiseFromMeleeEndTime=0x18a8
+m_sharedEnergyCount=0x18ac
+m_sharedEnergyTotal=0x18b0
+m_sharedEnergyLockoutThreshold=0x18b4
+m_lastSharedEnergyRegenTime=0x18b8
+m_sharedEnergyRegenRate=0x18bc
+m_sharedEnergyRegenDelay=0x18c0
+m_lastSharedEnergyTakeTime=0x18c4
+m_selectedWeapons=0x1930
+m_latestPrimaryWeapons=0x1934
+m_latestPrimaryWeaponsIndexZeroOrOne=0x193c
+m_latestNonOffhandWeapons=0x1944
+m_lastCycleSlot=0x194c
+m_weaponPermission=0x1954
+m_weaponDelayEnableTime=0x1958
+m_weaponDisabledInScript=0x195c
+m_weaponDisabledFlags=0x1972
+m_weaponInventorySlotLockedFlags=0x1974
+m_weaponTypeDisabledFlags=0x1978
+m_weaponTypeDisabledRefCount=0x197c
+m_allowHudSelectionWhileWeaponsDisabled=0x1986
+m_weaponAmmoRegenDisabled=0x1987
+m_weaponAmmoRegenDisabledRefCount=0x1988
+m_akimboShouldAltFire=0x198c
+m_hudInfo_visibilityTestAlwaysPasses=0x198d
+m_contextAction=0x19a0
+m_phaseShiftType=0x19cc
+m_phaseShiftTimeStart=0x19d0
+m_phaseShiftTimeEnd=0x19d4
+m_targetInfoPingValue=0x1b60
+
+[RecvTableTypes.DT_BaseCombatCharacter]
+@extends=DT_BaseAnimatingOverlay
+bcc_localdata=DT_BCCLocalPlayerExclusive
+m_weaponGettingSwitchedOut=DataTable
+m_showActiveWeapon3p=DataTable
+m_vecViewOffset.x=Float
+m_vecViewOffset.y=Float
+m_vecViewOffset.z=Float
+m_cloakEndTime=Float
+m_cloakFadeInEndTime=Time
+m_cloakFadeOutStartTime=Float
+m_cloakFadeInDuration=Float
+m_cloakFlickerAmount=Float
+m_cloakFlickerEndTime=Time
+m_networkedFlags=Int
+m_deathVelocity=Vector
+m_minimapData=DT_MinimapBaseEntityData
+m_nameVisibilityFlags=Int
+m_bIsPlayerOverheating=Int
+m_playerOverheatValue=Float
+m_timeLastGeneratedPlayerOverheat=Time
+m_lastFiredTime=Time
+m_lastFiredWeapon=Int
+m_raiseFromMeleeEndTime=Time
+m_sharedEnergyCount=Int
+m_sharedEnergyTotal=Int
+m_sharedEnergyLockoutThreshold=Int
+m_lastSharedEnergyRegenTime=Time
+m_sharedEnergyRegenRate=Time
+m_sharedEnergyRegenDelay=Float
+m_lastSharedEnergyTakeTime=Time
+m_selectedWeapons=DataTable
+m_latestPrimaryWeapons=DataTable
+m_latestPrimaryWeaponsIndexZeroOrOne=DataTable
+m_latestNonOffhandWeapons=DataTable
+m_lastCycleSlot=Int
+m_weaponPermission=Int
+m_weaponDelayEnableTime=Time
+m_weaponDisabledInScript=Int
+m_weaponDisabledFlags=Int
+m_weaponInventorySlotLockedFlags=Int
+m_weaponTypeDisabledFlags=Int
+m_weaponTypeDisabledRefCount=DataTable
+m_allowHudSelectionWhileWeaponsDisabled=Int
+m_weaponAmmoRegenDisabled=Int
+m_weaponAmmoRegenDisabledRefCount=Int
+m_akimboShouldAltFire=Int
+m_hudInfo_visibilityTestAlwaysPasses=Int
+m_contextAction=Int
+m_phaseShiftType=Int
+m_phaseShiftTimeStart=Time
+m_phaseShiftTimeEnd=Time
+m_targetInfoPingValue=Int
+
+[RecvTable.DT_BaseEntity]
+movetype=0x0000
+movecollide=0x0000
+predictable_id=0x0000
+HighlightSettings=0x0000
+moveparent=0x001c
+m_parentAttachment=0x0020
+m_fEffects=0x0040
+m_usableType=0x0044
+m_cellX=0x0048
+m_cellY=0x004c
+m_cellZ=0x0050
+m_localOrigin=0x0054
+m_nModelIndex=0x0060
+m_clrRender=0x0080
+m_clIntensity=0x0084
+m_bossPlayer=0x0154
+m_shieldHealth=0x01a0
+m_shieldHealthMax=0x01a4
+m_wantsScopeHighlight=0x02c4
+m_networkedFlags=0x02c8
+m_ignoreParentRotation=0x02d0
+m_visibilityFlags=0x0320
+m_iTeamNum=0x0328
+m_teamMemberIndex=0x0330
+m_squadID=0x0334
+m_grade=0x0338
+m_ignorePredictedTriggerFlags=0x033c
+m_passThroughFlags=0x0344
+m_passThroughThickness=0x0348
+m_passThroughDirection=0x034c
+m_bIsSoundCodeControllerValueSet=0x0364
+m_flSoundCodeControllerValue=0x0368
+m_localAngles=0x0378
+m_hOwnerEntity=0x038c
+m_bRenderWithViewModels=0x0390
+m_nRenderFX=0x0391
+m_nRenderMode=0x03a1
+m_Collision=0x03a8
+m_CollisionGroup=0x0428
+m_contents=0x042c
+m_collideWithOwner=0x0430
+m_iSignifierName=" 0 392 (fontified nil) 392 404 (fontified nil) 404 607 (fontified nil) 607 630 (fontified nil) 630 900 (fontified nil) 900 927 (fontified nil) 927 1100 (fontified nil) 1100 1101 (face (rainbow-delimiters-depth-1-face) fontified nil) 1101 1114 (fontified nil) 1114 1115 (face (rainbow-delimiters-depth-1-face) fontified nil) 1115 1257 (fontified nil) 1257 1268 (fontified nil) 1268 1470 (fontified nil) 1470 1476 (fontified nil) 1476 2757 (fontified nil) 2757 2781 (fontified nil) 2781 3211 (fontified nil) 3211 3244 (fontified nil) 3244 4432 (fontified nil) 4432 4433 (fontified nil face (rainbow-delimiters-depth-1-face)) 4433 4448 (fontified nil) 4448 4449 (fontified nil face (rainbow-delimiters-depth-1-face)) 4449 4744 (fontified nil) 4744 4757 (fontified nil) 4757 5011 (fontified nil) 5011 5029 (fontified nil) 5029 5568 (fontified nil) 5568 5593 (fontified nil) 5593 6281 (fontified nil) 6281 6315 (fontified nil) 6315 6704 (fontified nil) 6704 6705 (fontified nil face (rainbow-delimiters-depth-1-face)) 6705 6722 (fontified nil) 6722 6723 (fontified nil face (rainbow-delimiters-depth-1-face)) 6723 6844 (fontified nil) 6844 6862 (fontified nil) 6862 7472 (fontified nil) 7472 7499 (fontified nil) 7499 8086 (fontified nil) 8086 8105 (fontified nil) 8105 8834 (fontified nil) 8834 8852 (fontified nil) 8852 9418 (fontified nil) 9418 9434 (fontified nil) 9434 9482 (fontified nil) 9482 9483 (fontified nil face (rainbow-delimiters-depth-1-face)) 9483 9506 (fontified nil) 9506 9507 (fontified nil face (rainbow-delimiters-depth-1-face)) 9507 9828 (fontified nil) 9828 9829 (fontified nil face (rainbow-delimiters-depth-1-face)) 9829 9857 (fontified nil) 9857 9858 (fontified nil face (rainbow-delimiters-depth-1-face)) 9858 9962 (fontified nil) 9962 9982 (fontified nil) 9982 10230 (fontified nil) 10230 10231 (fontified nil face (rainbow-delimiters-depth-1-face)) 10231 10268 (fontified nil) 10268 10269 (fontified nil face (rainbow-delimiters-depth-1-face)) 10269 10339 (fontified nil) 10339 10340 (fontified nil face (rainbow-delimiters-depth-1-face)) 10340 10382 (fontified nil) 10382 10383 (fontified nil face (rainbow-delimiters-depth-1-face)) 10383 10459 (fontified nil) 10459 10460 (fontified nil face (rainbow-delimiters-depth-1-face)) 10460 10487 (fontified nil) 10487 10488 (fontified nil face (rainbow-delimiters-depth-1-face)) 10488 10505 (fontified nil) 10505 10524 (fontified nil) 10524 10627 (fontified nil) 10627 10628 (fontified nil face (rainbow-delimiters-depth-1-face)) 10628 10660 (fontified nil) 10660 10661 (fontified nil face (rainbow-delimiters-depth-1-face)) 10661 10813 (fontified nil) 10813 10814 (fontified nil face (rainbow-delimiters-depth-1-face)) 10814 10843 (fontified nil) 10843 10844 (fontified nil face (rainbow-delimiters-depth-1-face)) 10844 11097 (fontified nil) 11097 11125 (fontified nil) 11125 11204 (fontified nil) 11204 11205 (fontified nil face (rainbow-delimiters-depth-1-face)) 11205 11239 (fontified nil) 11239 11240 (fontified nil face (rainbow-delimiters-depth-1-face)) 11240 11590 (fontified nil) 11590 11591 (fontified nil face (rainbow-delimiters-depth-1-face)) 11591 11617 (fontified nil) 11617 11618 (fontified nil face (rainbow-delimiters-depth-1-face)) 11618 11641 (fontified nil) 11641 11667 (fontified nil) 11667 12208 (fontified nil) 12208 12235 (fontified nil) 12235 12453 (fontified nil) 12453 12454 (fontified nil face (rainbow-delimiters-depth-1-face)) 12454 12485 (fontified nil) 12485 12486 (fontified nil face (rainbow-delimiters-depth-1-face)) 12486 12661 (fontified nil) 12661 12679 (fontified nil) 12679 13201 (fontified nil) 13201 13213 (fontified nil) 13213 13345 (fontified nil) 13345 13346 (fontified nil face (rainbow-delimiters-depth-1-face)) 13346 13379 (fontified nil) 13379 13380 (fontified nil face (rainbow-delimiters-depth-1-face)) 13380 13611 (fontified nil) 13611 13637 (fontified nil) 13637 13738 (fontified nil) 13738 13739 (fontified nil face (rainbow-delimiters-depth-1-face)) 13739 13777 (fontified nil) 13777 13778 (fontified nil face (rainbow-delimiters-depth-1-face)) 13778 14125 (fontified nil) 14125 14163 (fontified nil) 14163 14203 (fontified nil) 14203 14204 (fontified nil face (rainbow-delimiters-depth-1-face)) 14204 14236 (fontified nil) 14236 14237 (fontified nil face (rainbow-delimiters-depth-1-face)) 14237 14238 (fontified nil) 14238 14259 (fontified nil) 14259 14631 (fontified nil) 14631 14637 (fontified nil) 14637 15772 (fontified nil) 15772 15773 (fontified nil face (rainbow-delimiters-depth-1-face)) 15773 15810 (fontified nil) 15810 15811 (fontified nil face (rainbow-delimiters-depth-1-face)) 15811 16137 (fontified nil) 16137 16158 (fontified nil) 16158 16268 (fontified nil) 16268 16274 (fontified nil) 16274 17344 (fontified nil) 17344 17345 (fontified nil face (rainbow-delimiters-depth-1-face)) 17345 17368 (fontified nil) 17368 17369 (fontified nil face (rainbow-delimiters-depth-1-face)) 17369 17774 (fontified nil) 17774 17781 (fontified nil) 17781 17811 (fontified nil) 17811 17836 (fontified nil) 17836 17854 (fontified nil) 17854 17879 (fontified nil) 17879 17896 (fontified nil) 17896 17911 (fontified nil) 17911 17948 (fontified nil) 17948 17974 (fontified nil) 17974 18311 (fontified nil) 18311 18327 (fontified nil) 18327 18328 (fontified nil rear-nonsticky nil)) . 1263) (undo-tree-id361 . -17781) (undo-tree-id362 . -18328) (undo-tree-id363 . -18311) (nil rear-nonsticky t 19590 . 19591)) (26115 10775 121384 548000) 0 nil])
+([nil nil ((#("0x073e1e70" 0 10 (fontified t)) . -1347) (undo-tree-id364 . -10) (undo-tree-id365 . -1) (undo-tree-id366 . -2) (undo-tree-id367 . -3) (undo-tree-id368 . -4) (undo-tree-id369 . -5) (undo-tree-id370 . -6) (undo-tree-id371 . -7) (undo-tree-id372 . -8) (undo-tree-id373 . -9) (undo-tree-id374 . -10) (undo-tree-id375 . -10) (undo-tree-id376 . -10) (undo-tree-id377 . -10) (undo-tree-id378 . -10) (undo-tree-id379 . -10) (undo-tree-id380 . -10) (undo-tree-id381 . -10) (undo-tree-id382 . -10) (undo-tree-id383 . -10) (undo-tree-id384 . -10) 1357 (t 26115 10783 782458 551000)) nil (26115 10792 862766 696000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 1356 . 1357) (nil fontified nil 1347 . 1357) (1347 . 1357)) nil (26115 10792 862740 621000) 0 nil])
+([nil nil ((#("0x073e1f58" 0 10 (fontified t)) . -1430) (undo-tree-id385 . -10) (undo-tree-id386 . -1) (undo-tree-id387 . -2) (undo-tree-id388 . -3) (undo-tree-id389 . -4) (undo-tree-id390 . -5) (undo-tree-id391 . -6) (undo-tree-id392 . -7) (undo-tree-id393 . -8) (undo-tree-id394 . -9) (undo-tree-id395 . -10) (undo-tree-id396 . -10) (undo-tree-id397 . -10) (undo-tree-id398 . -10) (undo-tree-id399 . -10) (undo-tree-id400 . -10) (undo-tree-id401 . -10) (undo-tree-id402 . -10) (undo-tree-id403 . -10) 1440 (t 26115 10792 872459 102000)) nil (26115 10798 704960 758000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1439 . 1440) (nil fontified nil 1430 . 1440) (1430 . 1440)) nil (26115 10798 704935 281000) 0 nil])
+([nil nil ((#("0x073e1ca8" 0 10 (fontified t)) . -1519) (undo-tree-id404 . -10) (undo-tree-id405 . -1) (undo-tree-id406 . -2) (undo-tree-id407 . -4) (undo-tree-id408 . -5) (undo-tree-id409 . -6) (undo-tree-id410 . -7) (undo-tree-id411 . -8) (undo-tree-id412 . -9) (undo-tree-id413 . -10) (undo-tree-id414 . -1) (undo-tree-id415 . -2) (undo-tree-id416 . -3) (undo-tree-id417 . -4) (undo-tree-id418 . -5) (undo-tree-id419 . -6) (undo-tree-id420 . -7) (undo-tree-id421 . -8) (undo-tree-id422 . -10) (undo-tree-id423 . -10) (undo-tree-id424 . -10) (undo-tree-id425 . -10) (undo-tree-id426 . -10) (undo-tree-id427 . -10) (undo-tree-id428 . -10) (undo-tree-id429 . -10) (undo-tree-id430 . -10) 1529 (t 26115 10798 715792 784000)) nil (26115 10807 63923 410000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1528 . 1529) (nil fontified nil 1519 . 1529) (1519 . 1529)) nil (26115 10844 902914 541000) 0 nil])
+([nil nil ((#("0x2ad0;" 0 7 (fontified t)) . -1615) (undo-tree-id465 . -7) (undo-tree-id466 . -1) (undo-tree-id467 . -2) (undo-tree-id468 . -3) (undo-tree-id469 . -4) (undo-tree-id470 . -5) (undo-tree-id471 . -6) (undo-tree-id472 . -7) (undo-tree-id473 . -7) (undo-tree-id474 . -7) (undo-tree-id475 . -7) (undo-tree-id476 . -7) (undo-tree-id477 . -7) (undo-tree-id478 . -7) (undo-tree-id479 . -7) (undo-tree-id480 . -6) (undo-tree-id481 . -6) (undo-tree-id482 . -6) (undo-tree-id483 . -6) (undo-tree-id484 . -6) (undo-tree-id485 . -6) (undo-tree-id486 . -6) (undo-tree-id487 . -6) (undo-tree-id488 . -6) (undo-tree-id489 . -6) (undo-tree-id490 . -6) (undo-tree-id491 . -6) (undo-tree-id492 . -6) (undo-tree-id493 . -6) (undo-tree-id494 . -6) (undo-tree-id495 . -6) (undo-tree-id496 . -6) (undo-tree-id497 . -6) (undo-tree-id498 . -6) (undo-tree-id499 . -1) (undo-tree-id500 . -2) (undo-tree-id501 . -3) (undo-tree-id502 . -4) (undo-tree-id503 . -5) (undo-tree-id504 . -6) (undo-tree-id505 . -7) (undo-tree-id506 . -7) (undo-tree-id507 . -7) (undo-tree-id508 . -7) (undo-tree-id509 . -7) (undo-tree-id510 . -7) (undo-tree-id511 . -7) (undo-tree-id512 . -7) 1621) nil (26115 10852 59593 306000) 0 nil] [nil nil ((#("0x2ad0;" 0 7 (fontified t)) . -1615) (undo-tree-id431 . -7) (undo-tree-id432 . -1) (undo-tree-id433 . -2) (undo-tree-id434 . -3) (undo-tree-id435 . -4) (undo-tree-id436 . -5) (undo-tree-id437 . -6) (undo-tree-id438 . -7) (undo-tree-id439 . -7) (undo-tree-id440 . -7) (undo-tree-id441 . -7) (undo-tree-id442 . -7) (undo-tree-id443 . -7) (undo-tree-id444 . -7) (undo-tree-id445 . -7) 1621 (t 26115 10807 72459 953000)) ((1615 . 1622)) (26115 10844 413678 566000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1620 . 1621) (nil fontified nil 1615 . 1621) (1615 . 1621)) nil (26115 10852 59555 955000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1620 . 1621) (nil fontified nil 1615 . 1621) (1615 . 1621)) ((#("0x2af0" 0 5 (fontified nil) 5 6 (rear-nonsticky nil fontified nil)) . 1615) (undo-tree-id446 . -6) (undo-tree-id447 . -6) (undo-tree-id448 . -6) (undo-tree-id449 . -6) (undo-tree-id450 . -6) (undo-tree-id451 . -6) (undo-tree-id452 . -6) (undo-tree-id453 . -6) (undo-tree-id454 . -6) (undo-tree-id455 . -6) (undo-tree-id456 . -6) (undo-tree-id457 . -6) (undo-tree-id458 . -6) (undo-tree-id459 . -6) (undo-tree-id460 . -6) (undo-tree-id461 . -6) (undo-tree-id462 . -6) (undo-tree-id463 . -6) (undo-tree-id464 . -6) (nil rear-nonsticky t 1620 . 1621) (t 26115 10838 612461 858000)) (26115 10838 602256 373000) 0 nil])
+([nil nil ((1621 . 1622)) nil (26115 10852 59551 270000) 0 nil])
+nil
+([nil nil ((#("0x2acc" 0 6 (fontified t)) . -1735) (undo-tree-id513 . -6) (undo-tree-id514 . -1) (undo-tree-id515 . -2) (undo-tree-id516 . -3) (undo-tree-id517 . -4) (undo-tree-id518 . -5) (undo-tree-id519 . -6) (undo-tree-id520 . -6) (undo-tree-id521 . -6) (undo-tree-id522 . -6) (undo-tree-id523 . -6) (undo-tree-id524 . -6) (undo-tree-id525 . -6) (undo-tree-id526 . -6) (undo-tree-id527 . -6) 1741 (t 26115 10852 95796 8000)) nil (26115 10868 658397 559000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1740 . 1741) (nil fontified nil 1735 . 1741) (1735 . 1741)) nil (26115 10868 658374 986000) 0 nil])
+([nil nil ((#("0x355c" 0 6 (fontified t)) . -1857) (undo-tree-id528 . -6) (undo-tree-id529 . -1) (undo-tree-id530 . -2) (undo-tree-id531 . -3) (undo-tree-id532 . -4) (undo-tree-id533 . -5) (undo-tree-id534 . -6) (undo-tree-id535 . -6) (undo-tree-id536 . -6) (undo-tree-id537 . -6) (undo-tree-id538 . -6) (undo-tree-id539 . -6) (undo-tree-id540 . -6) (undo-tree-id541 . -6) (undo-tree-id542 . -6) 1863 (t 26115 10868 669130 353000)) nil (26115 10888 980164 312000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1862 . 1863) (nil fontified nil 1857 . 1863) (1857 . 1863)) nil (26115 10888 980142 37000) 0 nil])
+([nil nil ((#("0x3560" 0 6 (fontified t)) . -1977) (undo-tree-id543 . -6) (undo-tree-id544 . -1) (undo-tree-id545 . -2) (undo-tree-id546 . -3) (undo-tree-id547 . -4) (undo-tree-id548 . -5) (undo-tree-id549 . -6) (undo-tree-id550 . -6) (undo-tree-id551 . -6) (undo-tree-id552 . -6) (undo-tree-id553 . -6) (undo-tree-id554 . -6) (undo-tree-id555 . -6) (undo-tree-id556 . -6) (undo-tree-id557 . -6) 1983 (t 26115 10888 989131 588000)) nil (26115 10896 461444 306000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1982 . 1983) (nil fontified nil 1977 . 1983) (1977 . 1983)) nil (26115 10896 461420 907000) 0 nil])
+([nil nil ((#("#pragma once
+//https://www.unknowncheats.me/forum/apex-legends/319804-apex-legends-reversal-structs-offsets.html
+ 
+//GameVersion = v3.0.59.33
+
+// Core    
+constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
+constexpr long OFF_LEVEL = 0x16f9090;                         //[Miscellaneous]->LevelName
+constexpr long OFF_LOCAL_PLAYER = 0x2182bf8;                  //[Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1dd40f8;                   //[Miscellaneous]->cl_entitylist
+constexpr long OFF_NAME_INDEX = 0x38;                         //?nameIndex
+constexpr long OFF_NAME_LIST = 0xC5E1150;                     //?[Miscellaneous]->NameList
+constexpr long OFF_GAMEMODE = 0x021ba460;                     //mp_gamemode
+constexpr long OFF_ITEM_ID = 0x1558;                          //m_customScriptInt
+constexpr long OFF_PROP_SURVIVAL = 0x01dc90a0;                //CPropSurvival
+constexpr long OFF_SIGNIFIER_NAME = 0x0468;                   //[RecvTable.DT_PropSurvival]m_iSignifierName
+
+// HUD
+constexpr long OFF_VIEWRENDER = 0x73f1578;                    //[Miscellaneous]->ViewRenderer
+constexpr long OFF_VIEWMATRIX = 0x11a350;                     //[Miscellaneous]->ViewMatrix
+ 
+// Buttons
+constexpr long OFF_INATTACK = 0x073f2818;                     //[Buttons]->in_attack
+constexpr long OFF_IN_JUMP = 0x073f2908;                      //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x073f29f8;                      //[Buttons]->in_duck
+constexpr long OFFSET_IN_FORWARD = 0x073f2748;                //[Buttons]->in_forward
+constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2af0;          //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
+constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2aec;            //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
+constexpr long OFFSET_WALL_RUN_START_TIME = 0x3584;           //[RecvTable.DT_LocalPlayerExclusive]->m_wallRunStartTime
+constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3588;           //[RecvTable.DT_LocalPlayerExclusive]->m_wallRunClearTime
+constexpr long OFF_GRAPPLE_ACTIVE = 0x1e18;              //[RecvTable.DT_NPC_Titan]       Not sure
+constexpr long OFF_GRAPPLE = 0x1d88;                      //[RecvTable.DT_NPC_Titan]        Not sure
+constexpr long OFF_GRAPPLE_ATTACHED = 0x0048;              // [RecvTable.DT_GrappleData]       Not sure
+ 
+// Player
+constexpr long OFF_HEALTH = 0x0318;                           //[RecvTable.DT_Player]->m_iHealth
+constexpr long OFF_MAXHEALTH = 0x0460;                        //[RecvTable.DT_Player]->m_iMaxHealth
+constexpr long OFF_SHIELD = 0x01a0;                           //[RecvTable.DT_TitanSoul]->m_shieldHealth
+constexpr long OFF_MAXSHIELD = 0x01a4;                        //[RecvTable.DT_TitanSoul]->m_shieldHealthMax
+constexpr long OFF_CAMERAORIGIN = 0x1eb0;                     //[Miscellaneous]->CPlayer!camera_origin
+constexpr long OFF_STUDIOHDR = 0xfd0;                         //[Miscellaneous]->CBaseAnimating!m_pStudioHdr
+constexpr long OFF_BONES = 0x0d80 + 0x48;                     //m_nForceBone
+constexpr long OFF_LOCAL_ORIGIN = 0x017c;                     //[DataMap.C_BaseEntity]->m_vecAbsOrigin
+constexpr long OFF_ABSVELOCITY = 0x0170;                      //[DataMap.C_BaseEntity]->m_vecAbsVelocity
+constexpr long OFF_ZOOMING = 0x1bb1;                          //[RecvTable.DT_Player]->m_bZooming
+constexpr long OFF_TEAM_NUMBER = 0x0328;                      //[RecvTable.DT_BaseEntity]->m_iTeamNum
+constexpr long OFF_NAME = 0x0471;                             //[RecvTable.DT_BaseEntity]->m_iName
+constexpr long OFF_LIFE_STATE = 0x0680;                       //[RecvTable.DT_Player]->m_lifeState
+constexpr long OFF_BLEEDOUT_STATE = 0x26c0;                   //[RecvTable.DT_Player]->m_bleedoutState  
+constexpr long OFF_LAST_VISIBLE_TIME = 0x196d + 0x3;          //[RecvTable.DT_BaseCombatCharacter]->m_hudInfo_visibilityTestAlwaysPasses + 0x3
+constexpr long OFF_LAST_AIMEDAT_TIME = 0x196d + 0x3 + 0x8;    //[RecvTable.DT_BaseCombatCharacter]->m_hudInfo_visibilityTestAlwaysPasses + 0x3 + 0x8
+constexpr long OFF_VIEW_ANGLES = 0x2514 - 0x14;               //[DataMap.C_Player]-> m_ammoPoolCapacity - 0x14
+constexpr long OFF_PUNCH_ANGLES = 0x2418;                     //[DataMap.C_Player]->m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
+constexpr long OFF_YAW = 0x221c - 0x8;                        //m_currentFramePlayer.m_ammoPoolCount - 0x8
+constexpr long LOCAL_ORIGIN = 0x0188;                         // [DataMap.CBaseViewModel] ->m_localOrigin
+constexpr long OFF_MODELNAME = 0x0030;                        //m_ModelName
+constexpr long OFF_THIRDPERSON_OVERRIDE = 0x01d47a70;         //thirdperson_override
+constexpr long OFF_THIRDPERSON_SHOULDERVIEW = 0x3690;         //m_thirdPersonShoulderView
+constexpr long OFF_THIRDPERSON = 0x36f4;                      //m_thirdPerson
+constexpr long OFF_THIRDPERSON_ENT = 0x368c;                  //m_hThirdPersonEnt
+constexpr long OFF_OBSERVER_MODE = 0x347c;                    //m_iObserverMode
+ 
+// Weapon 
+constexpr long OFF_WEAPON_HANDLE = 0x1914;                    //[RecvTable.DT_Player]->m_latestPrimaryWeapons
+constexpr long OFF_WEAPON_INDEX = 0x1758;                     //[RecvTable.DT_WeaponX]->m_weaponNameIndex
+constexpr long OFF_PROJECTILESCALE = 0x04ec + 0x1998;         //projectile_gravity_scale + [WeaponSettingsMeta]base
+constexpr long OFF_PROJECTILESPEED = 0x04e4 + 0x1998;         //projectile_launch_speed + [WeaponSettingsMeta]base
+constexpr long OFF_OFFHAND_WEAPON = 0x1924;                   //m_latestNonOffhandWeapons
+constexpr long OFF_CURRENTZOOMFOV = 0x15b0 + 0x00b8;          //m_playerData + m_curZoomFOV
+constexpr long OFF_TARGETZOOMFOV = 0x15b0 + 0x00bc;           //m_playerData + m_targetZoomFOV
+constexpr long OFF_MOUSE_SENSITIVITY = 0x02153b80;            //mouse_sensitivity
+constexpr long OFF_SKIN = 0x0d38;                             //m_nSkin
+constexpr long OFF_TIME_BASE = 0x2068;                        //m_currentFramePlayer.timeBase
+constexpr long OFF_WEAPON_DISCARDED = 0x1579;                 //[RecvTable.DT_WeaponX]->m_discarded
+constexpr long OFF_VIEWMODELS = 0x2cf8;                       //m_hViewModels
+constexpr long OFF_CURFRAME_MODELINDEX = 0x00d8;              //[DataMap.CBaseViewModel]m_currentFrame.modelIndex
+ 
+//glow
+constexpr long OFF_HIGHLIGHT_TYPE_SIZE = 0x34;                //                         
+constexpr long OFF_GLOW_ENABLE = 0x28c;                       //[DT_HighlightSettings].        
+constexpr long OFF_GLOW_THROUGH_WALL = 0x26c;                 //[DT_HighlightSettings].       
+constexpr long OFF_GLOW_FIX = 0x268;                        //                                      
+constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x28C;                 //[DT_HighlightSettings].m_highlightServerActiveStates     
+constexpr long OFF_GLOW_HIGHLIGHTS = 0xB944E30;                //highlightsettings
+" 0 1 (c-in-sws t face font-lock-preprocessor-face c-is-sws t fontified t) 1 7 (c-in-sws t face font-lock-preprocessor-face fontified t) 7 13 (c-in-sws t fontified t) 13 14 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 14 15 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 15 113 (c-in-sws t face font-lock-comment-face fontified t) 113 115 (c-in-sws t fontified t) 115 117 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 117 142 (c-in-sws t face font-lock-comment-face fontified t) 142 143 (c-in-sws t fontified t) 143 146 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 146 155 (c-in-sws t face font-lock-comment-face fontified t) 155 156 (face font-lock-keyword-face c-is-sws t fontified t) 156 164 (face font-lock-keyword-face fontified t) 164 165 (fontified t) 165 168 (face font-lock-type-face fontified t) 168 169 (face font-lock-type-face c-type c-decl-id-start fontified t) 169 170 (fontified t) 170 180 (face font-lock-variable-name-face fontified t) 180 195 (fontified t) 195 217 (c-is-sws t c-in-sws t fontified t) 217 218 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 218 219 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 219 236 (c-in-sws t face font-lock-comment-face fontified t) 236 237 (c-is-sws t face font-lock-keyword-face fontified t) 237 245 (face font-lock-keyword-face fontified t) 245 246 (fontified t) 246 249 (face font-lock-type-face fontified t) 249 250 (face font-lock-type-face c-type c-decl-id-start fontified t) 250 251 (fontified t) 251 260 (face font-lock-variable-name-face fontified t) 260 273 (fontified t) 273 298 (c-is-sws t c-in-sws t fontified t) 298 299 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 299 300 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 300 327 (c-in-sws t face font-lock-comment-face fontified t) 327 328 (c-is-sws t face font-lock-keyword-face fontified t) 328 336 (face font-lock-keyword-face fontified t) 336 337 (fontified t) 337 340 (face font-lock-type-face fontified t) 340 341 (face font-lock-type-face c-type c-decl-id-start fontified t) 341 342 (fontified t) 342 358 (face font-lock-variable-name-face fontified t) 358 371 (fontified t) 371 389 (c-is-sws t c-in-sws t fontified t) 389 390 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 390 391 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 391 420 (c-in-sws t face font-lock-comment-face fontified t) 420 421 (c-is-sws t face font-lock-keyword-face fontified t) 421 429 (face font-lock-keyword-face fontified t) 429 430 (fontified t) 430 433 (face font-lock-type-face fontified t) 433 434 (face font-lock-type-face c-type c-decl-id-start fontified t) 434 435 (fontified t) 435 450 (face font-lock-variable-name-face fontified t) 450 463 (fontified t) 463 482 (c-is-sws t c-in-sws t fontified t) 482 483 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 483 484 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 484 515 (c-in-sws t face font-lock-comment-face fontified t) 515 516 (c-is-sws t face font-lock-keyword-face fontified t) 516 524 (face font-lock-keyword-face fontified t) 524 525 (fontified t) 525 528 (face font-lock-type-face fontified t) 528 529 (face font-lock-type-face c-type c-decl-id-start fontified t) 529 530 (fontified t) 530 544 (face font-lock-variable-name-face fontified t) 544 552 (fontified t) 552 577 (c-is-sws t c-in-sws t fontified t) 577 578 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 578 579 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 579 590 (c-in-sws t face font-lock-comment-face fontified t) 590 591 (c-is-sws t face font-lock-keyword-face fontified t) 591 599 (face font-lock-keyword-face fontified t) 599 600 (fontified t) 600 603 (face font-lock-type-face fontified t) 603 604 (face font-lock-type-face c-type c-decl-id-start fontified t) 604 605 (fontified t) 605 618 (face font-lock-variable-name-face fontified t) 618 631 (fontified t) 631 652 (c-is-sws t c-in-sws t fontified t) 652 653 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 653 654 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 654 681 (c-in-sws t face font-lock-comment-face fontified t) 681 682 (c-is-sws t face font-lock-keyword-face fontified t) 682 690 (face font-lock-keyword-face fontified t) 690 691 (fontified t) 691 694 (face font-lock-type-face fontified t) 694 695 (face font-lock-type-face c-type c-decl-id-start fontified t) 695 696 (fontified t) 696 708 (face font-lock-variable-name-face fontified t) 708 722 (fontified t) 722 743 (c-is-sws t c-in-sws t fontified t) 743 744 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 744 745 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 745 757 (c-in-sws t face font-lock-comment-face fontified t) 757 758 (c-is-sws t face font-lock-keyword-face fontified t) 758 766 (face font-lock-keyword-face fontified t) 766 767 (fontified t) 767 770 (face font-lock-type-face fontified t) 770 771 (face font-lock-type-face c-type c-decl-id-start fontified t) 771 772 (fontified t) 772 783 (face font-lock-variable-name-face fontified t) 783 793 (fontified t) 793 819 (c-is-sws t c-in-sws t fontified t) 819 820 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 820 821 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 821 839 (c-in-sws t face font-lock-comment-face fontified t) 839 840 (c-is-sws t face font-lock-keyword-face fontified t) 840 848 (face font-lock-keyword-face fontified t) 848 849 (fontified t) 849 852 (face font-lock-type-face fontified t) 852 853 (face font-lock-type-face c-type c-decl-id-start fontified t) 853 854 (fontified t) 854 871 (face font-lock-variable-name-face fontified t) 871 885 (fontified t) 885 901 (c-is-sws t c-in-sws t fontified t) 901 902 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 902 903 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 903 917 (c-in-sws t face font-lock-comment-face fontified t) 917 918 (c-is-sws t face font-lock-keyword-face fontified t) 918 926 (face font-lock-keyword-face fontified t) 926 927 (fontified t) 927 930 (face font-lock-type-face fontified t) 930 931 (face font-lock-type-face c-type c-decl-id-start fontified t) 931 932 (fontified t) 932 950 (face font-lock-variable-name-face fontified t) 950 960 (fontified t) 960 979 (c-is-sws t c-in-sws t fontified t) 979 980 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 980 981 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 981 1025 (c-in-sws t face font-lock-comment-face fontified t) 1025 1026 (c-in-sws t fontified t) 1026 1029 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1029 1033 (c-in-sws t face font-lock-comment-face fontified t) 1033 1034 (c-is-sws t face font-lock-keyword-face fontified t) 1034 1042 (face font-lock-keyword-face fontified t) 1042 1043 (fontified t) 1043 1046 (face font-lock-type-face fontified t) 1046 1047 (face font-lock-type-face c-type c-decl-id-start fontified t) 1047 1048 (fontified t) 1048 1062 (face font-lock-variable-name-face fontified t) 1062 1075 (fontified t) 1075 1095 (c-is-sws t c-in-sws t fontified t) 1095 1096 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1096 1097 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1097 1127 (c-in-sws t face font-lock-comment-face fontified t) 1127 1128 (c-is-sws t face font-lock-keyword-face fontified t) 1128 1136 (face font-lock-keyword-face fontified t) 1136 1137 (fontified t) 1137 1140 (face font-lock-type-face fontified t) 1140 1141 (face font-lock-type-face c-type c-decl-id-start fontified t) 1141 1142 (fontified t) 1142 1156 (face font-lock-variable-name-face fontified t) 1156 1168 (fontified t) 1168 1189 (c-is-sws t c-in-sws t fontified t) 1189 1190 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1190 1191 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1191 1219 (c-in-sws t face font-lock-comment-face fontified t) 1219 1221 (c-in-sws t fontified t) 1221 1224 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1224 1232 (c-in-sws t face font-lock-comment-face fontified t) 1232 1233 (c-is-sws t face font-lock-keyword-face fontified t) 1233 1241 (face font-lock-keyword-face fontified t) 1241 1242 (fontified t) 1242 1245 (face font-lock-type-face fontified t) 1245 1246 (face font-lock-type-face c-type c-decl-id-start fontified t) 1246 1247 (fontified t) 1247 1259 (face font-lock-variable-name-face fontified t) 1259 1273 (fontified t) 1273 1294 (c-is-sws t c-in-sws t fontified t) 1294 1295 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1295 1296 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1296 1317 (c-in-sws t face font-lock-comment-face fontified t) 1317 1318 (c-is-sws t face font-lock-keyword-face fontified t) 1318 1326 (face font-lock-keyword-face fontified t) 1326 1327 (fontified t) 1327 1330 (face font-lock-type-face fontified t) 1330 1331 (face font-lock-type-face c-type c-decl-id-start fontified t) 1331 1332 (fontified t) 1332 1343 (face font-lock-variable-name-face fontified t) 1343 1357 (fontified t) 1357 1379 (c-is-sws t c-in-sws t fontified t) 1379 1380 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1380 1381 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1381 1400 (c-in-sws t face font-lock-comment-face fontified t) 1400 1401 (c-is-sws t face font-lock-keyword-face fontified t) 1401 1409 (face font-lock-keyword-face fontified t) 1409 1410 (fontified t) 1410 1413 (face font-lock-type-face fontified t) 1413 1414 (face font-lock-type-face c-type c-decl-id-start fontified t) 1414 1415 (fontified t) 1415 1426 (face font-lock-variable-name-face fontified t) 1426 1440 (fontified t) 1440 1462 (c-is-sws t c-in-sws t fontified t) 1462 1463 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1463 1464 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1464 1482 (c-in-sws t face font-lock-comment-face fontified t) 1482 1483 (c-in-sws t face font-lock-comment-face fontified t) 1483 1484 (face font-lock-keyword-face c-is-sws t fontified t) 1484 1492 (face font-lock-keyword-face fontified t) 1492 1493 (fontified t) 1493 1496 (face font-lock-type-face fontified t) 1496 1497 (face font-lock-type-face c-type c-decl-id-start fontified t) 1497 1498 (fontified t) 1498 1500 (face font-lock-variable-name-face fontified t) 1500 1515 (face font-lock-variable-name-face fontified t) 1515 1517 (fontified t) 1517 1529 (fontified t) 1529 1545 (c-is-sws t c-in-sws t fontified t) 1545 1546 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1546 1547 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1547 1569 (c-in-sws t face font-lock-comment-face fontified t) 1569 1570 (c-is-sws t face font-lock-keyword-face fontified t) 1570 1578 (face font-lock-keyword-face fontified t) 1578 1579 (fontified t) 1579 1582 (face font-lock-type-face fontified t) 1582 1583 (face font-lock-type-face c-type c-decl-id-start fontified t) 1583 1584 (fontified t) 1584 1611 (face font-lock-variable-name-face fontified t) 1611 1621 (fontified t) 1621 1631 (c-is-sws t c-in-sws t fontified t) 1631 1632 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1632 1633 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1633 1691 (c-in-sws t face font-lock-comment-face fontified t) 1691 1692 (c-is-sws t face font-lock-keyword-face fontified t) 1692 1700 (face font-lock-keyword-face fontified t) 1700 1701 (fontified t) 1701 1704 (face font-lock-type-face fontified t) 1704 1705 (face font-lock-type-face c-type c-decl-id-start fontified t) 1705 1706 (fontified t) 1706 1731 (face font-lock-variable-name-face fontified t) 1731 1741 (fontified t) 1741 1753 (c-is-sws t c-in-sws t fontified t) 1753 1754 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1754 1755 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1755 1812 (c-in-sws t face font-lock-comment-face fontified t) 1812 1813 (c-is-sws t face font-lock-keyword-face fontified t) 1813 1821 (face font-lock-keyword-face fontified t) 1821 1822 (fontified t) 1822 1825 (face font-lock-type-face fontified t) 1825 1826 (face font-lock-type-face c-type c-decl-id-start fontified t) 1826 1827 (fontified t) 1827 1853 (face font-lock-variable-name-face fontified t) 1853 1863 (fontified t) 1863 1874 (c-is-sws t c-in-sws t fontified t) 1874 1875 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1875 1876 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1876 1932 (c-in-sws t face font-lock-comment-face fontified t) 1932 1933 (c-is-sws t face font-lock-keyword-face fontified t) 1933 1941 (face font-lock-keyword-face fontified t) 1941 1942 (fontified t) 1942 1945 (face font-lock-type-face fontified t) 1945 1946 (face font-lock-type-face c-type c-decl-id-start fontified t) 1946 1947 (fontified t) 1947 1973 (face font-lock-variable-name-face fontified t) 1973 1983 (fontified t) 1983 1994 (c-is-sws t c-in-sws t fontified t) 1994 1995 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 1995 1996 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 1996 2052 (c-in-sws t face font-lock-comment-face fontified t) 2052 2053 (c-is-sws t face font-lock-keyword-face fontified t) 2053 2061 (face font-lock-keyword-face fontified t) 2061 2062 (fontified t) 2062 2065 (face font-lock-type-face fontified t) 2065 2066 (face font-lock-type-face c-type c-decl-id-start fontified t) 2066 2067 (fontified t) 2067 2085 (face font-lock-variable-name-face fontified t) 2085 2095 (fontified t) 2095 2109 (c-is-sws t c-in-sws t fontified t) 2109 2110 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2110 2111 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2111 2151 (c-in-sws t face font-lock-comment-face fontified t) 2151 2152 (c-is-sws t face font-lock-keyword-face fontified t) 2152 2160 (face font-lock-keyword-face fontified t) 2160 2161 (fontified t) 2161 2164 (face font-lock-type-face fontified t) 2164 2165 (face font-lock-type-face c-type c-decl-id-start fontified t) 2165 2166 (fontified t) 2166 2177 (face font-lock-variable-name-face fontified t) 2177 2187 (fontified t) 2187 2209 (c-is-sws t c-in-sws t fontified t) 2209 2210 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2210 2211 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2211 2252 (c-in-sws t face font-lock-comment-face fontified t) 2252 2253 (c-is-sws t face font-lock-keyword-face fontified t) 2253 2261 (face font-lock-keyword-face fontified t) 2261 2262 (fontified t) 2262 2265 (face font-lock-type-face fontified t) 2265 2266 (face font-lock-type-face c-type c-decl-id-start fontified t) 2266 2267 (fontified t) 2267 2287 (face font-lock-variable-name-face fontified t) 2287 2297 (fontified t) 2297 2311 (c-is-sws t c-in-sws t fontified t) 2311 2312 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2312 2314 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2314 2356 (c-in-sws t face font-lock-comment-face fontified t) 2356 2358 (c-in-sws t fontified t) 2358 2361 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2361 2368 (c-in-sws t face font-lock-comment-face fontified t) 2368 2369 (c-is-sws t face font-lock-keyword-face fontified t) 2369 2377 (face font-lock-keyword-face fontified t) 2377 2378 (fontified t) 2378 2381 (face font-lock-type-face fontified t) 2381 2382 (face font-lock-type-face c-type c-decl-id-start fontified t) 2382 2383 (fontified t) 2383 2393 (face font-lock-variable-name-face fontified t) 2393 2403 (fontified t) 2403 2430 (c-is-sws t c-in-sws t fontified t) 2430 2431 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2431 2432 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2432 2465 (c-in-sws t face font-lock-comment-face fontified t) 2465 2466 (c-is-sws t face font-lock-keyword-face fontified t) 2466 2474 (face font-lock-keyword-face fontified t) 2474 2475 (fontified t) 2475 2478 (face font-lock-type-face fontified t) 2478 2479 (face font-lock-type-face c-type c-decl-id-start fontified t) 2479 2480 (fontified t) 2480 2493 (face font-lock-variable-name-face fontified t) 2493 2503 (fontified t) 2503 2527 (c-is-sws t c-in-sws t fontified t) 2527 2528 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2528 2529 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2529 2565 (c-in-sws t face font-lock-comment-face fontified t) 2565 2566 (c-is-sws t face font-lock-keyword-face fontified t) 2566 2574 (face font-lock-keyword-face fontified t) 2574 2575 (fontified t) 2575 2578 (face font-lock-type-face fontified t) 2578 2579 (face font-lock-type-face c-type c-decl-id-start fontified t) 2579 2580 (fontified t) 2580 2590 (face font-lock-variable-name-face fontified t) 2590 2600 (fontified t) 2600 2627 (c-is-sws t c-in-sws t fontified t) 2627 2628 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2628 2629 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2629 2670 (c-in-sws t face font-lock-comment-face fontified t) 2670 2671 (c-is-sws t face font-lock-keyword-face fontified t) 2671 2679 (face font-lock-keyword-face fontified t) 2679 2680 (fontified t) 2680 2683 (face font-lock-type-face fontified t) 2683 2684 (face font-lock-type-face c-type c-decl-id-start fontified t) 2684 2685 (fontified t) 2685 2698 (face font-lock-variable-name-face fontified t) 2698 2708 (fontified t) 2708 2732 (c-is-sws t c-in-sws t fontified t) 2732 2733 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2733 2734 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2734 2778 (c-in-sws t face font-lock-comment-face fontified t) 2778 2779 (c-is-sws t face font-lock-keyword-face fontified t) 2779 2787 (face font-lock-keyword-face fontified t) 2787 2788 (fontified t) 2788 2791 (face font-lock-type-face fontified t) 2791 2792 (face font-lock-type-face c-type c-decl-id-start fontified t) 2792 2793 (fontified t) 2793 2809 (face font-lock-variable-name-face fontified t) 2809 2819 (fontified t) 2819 2840 (c-is-sws t c-in-sws t fontified t) 2840 2841 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2841 2842 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2842 2881 (c-in-sws t face font-lock-comment-face fontified t) 2881 2882 (c-is-sws t face font-lock-keyword-face fontified t) 2882 2890 (face font-lock-keyword-face fontified t) 2890 2891 (fontified t) 2891 2894 (face font-lock-type-face fontified t) 2894 2895 (face font-lock-type-face c-type c-decl-id-start fontified t) 2895 2896 (fontified t) 2896 2909 (face font-lock-variable-name-face fontified t) 2909 2918 (fontified t) 2918 2943 (c-is-sws t c-in-sws t fontified t) 2943 2944 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 2944 2945 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 2945 2990 (c-in-sws t face font-lock-comment-face fontified t) 2990 2991 (c-is-sws t face font-lock-keyword-face fontified t) 2991 2999 (face font-lock-keyword-face fontified t) 2999 3000 (fontified t) 3000 3003 (face font-lock-type-face fontified t) 3003 3004 (face font-lock-type-face c-type c-decl-id-start fontified t) 3004 3005 (fontified t) 3005 3014 (face font-lock-variable-name-face fontified t) 3014 3017 (fontified t) 3017 3052 (fontified t) 3052 3054 (face font-lock-comment-delimiter-face fontified t) 3054 3067 (face font-lock-comment-face fontified t) 3067 4656 (fontified nil) 4656 4666 (c-is-sws t c-in-sws t fontified nil) 4666 4688 (c-in-sws t fontified nil) 4688 4689 (c-is-sws t fontified nil) 4689 4741 (fontified nil) 4741 4751 (c-is-sws t c-in-sws t fontified nil) 4751 4777 (c-in-sws t fontified nil) 4777 4778 (c-in-sws t fontified nil) 4778 4779 (face font-lock-keyword-face c-is-sws t fontified t) 4779 4787 (face font-lock-keyword-face fontified t) 4787 4788 (fontified t) 4788 4791 (face font-lock-type-face fontified t) 4791 4792 (face font-lock-type-face c-type c-decl-id-start fontified t) 4792 4793 (fontified t) 4793 4808 (face font-lock-variable-name-face fontified t) 4808 4818 (fontified t) 4818 4840 (c-is-sws t c-in-sws t fontified t) 4840 4841 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 4841 4842 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 4842 4856 (c-in-sws t face font-lock-comment-face fontified t) 4856 4857 (c-is-sws t face font-lock-keyword-face fontified t) 4857 4865 (face font-lock-keyword-face fontified t) 4865 4866 (fontified t) 4866 4869 (face font-lock-type-face fontified t) 4869 4870 (face font-lock-type-face c-type c-decl-id-start fontified t) 4870 4871 (fontified t) 4871 4890 (face font-lock-variable-name-face fontified t) 4890 4900 (fontified t) 4900 4918 (c-is-sws t c-in-sws t fontified t) 4918 4919 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 4919 4920 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 4920 4938 (c-in-sws t face font-lock-comment-face fontified t) 4938 4939 (c-is-sws t face font-lock-keyword-face fontified t) 4939 4947 (face font-lock-keyword-face fontified t) 4947 4948 (fontified t) 4948 4951 (face font-lock-type-face fontified t) 4951 4952 (face font-lock-type-face c-type c-decl-id-start fontified t) 4952 4953 (fontified t) 4953 4970 (face font-lock-variable-name-face fontified t) 4970 4980 (fontified t) 4980 5000 (c-is-sws t c-in-sws t fontified t) 5000 5001 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5001 5002 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5002 5018 (c-in-sws t face font-lock-comment-face fontified t) 5018 5020 (c-in-sws t fontified t) 5020 5023 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5023 5031 (c-in-sws t face font-lock-comment-face fontified t) 5031 5032 (c-is-sws t face font-lock-keyword-face fontified t) 5032 5040 (face font-lock-keyword-face fontified t) 5040 5041 (fontified t) 5041 5044 (face font-lock-type-face fontified t) 5044 5045 (face font-lock-type-face c-type c-decl-id-start fontified t) 5045 5046 (fontified t) 5046 5063 (face font-lock-variable-name-face fontified t) 5063 5073 (fontified t) 5073 5093 (c-is-sws t c-in-sws t fontified t) 5093 5094 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5094 5095 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5095 5141 (c-in-sws t face font-lock-comment-face fontified t) 5141 5142 (c-is-sws t face font-lock-keyword-face fontified t) 5142 5150 (face font-lock-keyword-face fontified t) 5150 5151 (fontified t) 5151 5154 (face font-lock-type-face fontified t) 5154 5155 (face font-lock-type-face c-type c-decl-id-start fontified t) 5155 5156 (fontified t) 5156 5172 (face font-lock-variable-name-face fontified t) 5172 5182 (fontified t) 5182 5203 (c-is-sws t c-in-sws t fontified t) 5203 5204 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5204 5205 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5205 5247 (c-in-sws t face font-lock-comment-face fontified t) 5247 5248 (c-is-sws t face font-lock-keyword-face fontified t) 5248 5256 (face font-lock-keyword-face fontified t) 5256 5257 (fontified t) 5257 5260 (face font-lock-type-face fontified t) 5260 5261 (face font-lock-type-face c-type c-decl-id-start fontified t) 5261 5262 (fontified t) 5262 5281 (face font-lock-variable-name-face fontified t) 5281 5300 (fontified t) 5300 5309 (c-is-sws t c-in-sws t fontified t) 5309 5310 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5310 5311 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5311 5363 (c-in-sws t face font-lock-comment-face fontified t) 5363 5364 (c-is-sws t face font-lock-keyword-face fontified t) 5364 5372 (face font-lock-keyword-face fontified t) 5372 5373 (fontified t) 5373 5376 (face font-lock-type-face fontified t) 5376 5377 (face font-lock-type-face c-type c-decl-id-start fontified t) 5377 5378 (fontified t) 5378 5397 (face font-lock-variable-name-face fontified t) 5397 5416 (fontified t) 5416 5425 (c-is-sws t c-in-sws t fontified t) 5425 5426 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5426 5427 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5427 5478 (c-in-sws t face font-lock-comment-face fontified t) 5478 5479 (c-is-sws t face font-lock-keyword-face fontified t) 5479 5487 (face font-lock-keyword-face fontified t) 5487 5488 (fontified t) 5488 5491 (face font-lock-type-face fontified t) 5491 5492 (face font-lock-type-face c-type c-decl-id-start fontified t) 5492 5493 (fontified t) 5493 5511 (face font-lock-variable-name-face fontified t) 5511 5521 (fontified t) 5521 5540 (c-is-sws t c-in-sws t fontified t) 5540 5541 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5541 5542 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5542 5568 (c-in-sws t face font-lock-comment-face fontified t) 5568 5569 (c-is-sws t face font-lock-keyword-face fontified t) 5569 5577 (face font-lock-keyword-face fontified t) 5577 5578 (fontified t) 5578 5581 (face font-lock-type-face fontified t) 5581 5582 (face font-lock-type-face c-type c-decl-id-start fontified t) 5582 5583 (fontified t) 5583 5601 (face font-lock-variable-name-face fontified t) 5601 5620 (fontified t) 5620 5630 (c-is-sws t c-in-sws t fontified t) 5630 5631 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5631 5632 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5632 5660 (c-in-sws t face font-lock-comment-face fontified t) 5660 5661 (c-is-sws t face font-lock-keyword-face fontified t) 5661 5669 (face font-lock-keyword-face fontified t) 5669 5670 (fontified t) 5670 5673 (face font-lock-type-face fontified t) 5673 5674 (face font-lock-type-face c-type c-decl-id-start fontified t) 5674 5675 (fontified t) 5675 5692 (face font-lock-variable-name-face fontified t) 5692 5711 (fontified t) 5711 5722 (c-is-sws t c-in-sws t fontified t) 5722 5723 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5723 5724 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5724 5755 (c-in-sws t face font-lock-comment-face fontified t) 5755 5756 (c-is-sws t face font-lock-keyword-face fontified t) 5756 5764 (face font-lock-keyword-face fontified t) 5764 5765 (fontified t) 5765 5768 (face font-lock-type-face fontified t) 5768 5769 (face font-lock-type-face c-type c-decl-id-start fontified t) 5769 5770 (fontified t) 5770 5791 (face font-lock-variable-name-face fontified t) 5791 5805 (fontified t) 5805 5817 (c-is-sws t c-in-sws t fontified t) 5817 5818 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5818 5819 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5819 5837 (c-in-sws t face font-lock-comment-face fontified t) 5837 5838 (c-is-sws t face font-lock-keyword-face fontified t) 5838 5846 (face font-lock-keyword-face fontified t) 5846 5847 (fontified t) 5847 5850 (face font-lock-type-face fontified t) 5850 5851 (face font-lock-type-face c-type c-decl-id-start fontified t) 5851 5852 (fontified t) 5852 5860 (face font-lock-variable-name-face fontified t) 5860 5870 (fontified t) 5870 5899 (c-is-sws t c-in-sws t fontified t) 5899 5900 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5900 5901 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5901 5909 (c-in-sws t face font-lock-comment-face fontified t) 5909 5910 (c-is-sws t face font-lock-keyword-face fontified t) 5910 5918 (face font-lock-keyword-face fontified t) 5918 5919 (fontified t) 5919 5922 (face font-lock-type-face fontified t) 5922 5923 (face font-lock-type-face c-type c-decl-id-start fontified t) 5923 5924 (fontified t) 5924 5937 (face font-lock-variable-name-face fontified t) 5937 5947 (fontified t) 5947 5971 (c-is-sws t c-in-sws t fontified t) 5971 5972 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 5972 5973 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 5973 6003 (c-in-sws t face font-lock-comment-face fontified t) 6003 6004 (c-is-sws t face font-lock-keyword-face fontified t) 6004 6012 (face font-lock-keyword-face fontified t) 6012 6013 (fontified t) 6013 6016 (face font-lock-type-face fontified t) 6016 6017 (face font-lock-type-face c-type c-decl-id-start fontified t) 6017 6018 (fontified t) 6018 6038 (face font-lock-variable-name-face fontified t) 6038 6048 (fontified t) 6048 6065 (c-is-sws t c-in-sws t fontified t) 6065 6066 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6066 6067 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6067 6103 (c-in-sws t face font-lock-comment-face fontified t) 6103 6104 (c-is-sws t face font-lock-keyword-face fontified t) 6104 6112 (face font-lock-keyword-face fontified t) 6112 6113 (fontified t) 6113 6116 (face font-lock-type-face fontified t) 6116 6117 (face font-lock-type-face c-type c-decl-id-start fontified t) 6117 6118 (fontified t) 6118 6132 (face font-lock-variable-name-face fontified t) 6132 6142 (fontified t) 6142 6165 (c-is-sws t c-in-sws t fontified t) 6165 6166 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6166 6167 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6167 6181 (c-in-sws t face font-lock-comment-face fontified t) 6181 6182 (c-is-sws t face font-lock-keyword-face fontified t) 6182 6190 (face font-lock-keyword-face fontified t) 6190 6191 (fontified t) 6191 6194 (face font-lock-type-face fontified t) 6194 6195 (face font-lock-type-face c-type c-decl-id-start fontified t) 6195 6196 (fontified t) 6196 6219 (face font-lock-variable-name-face fontified t) 6219 6229 (fontified t) 6229 6243 (c-is-sws t c-in-sws t fontified t) 6243 6244 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6244 6245 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6245 6278 (c-in-sws t face font-lock-comment-face fontified t) 6278 6294 (c-in-sws t face font-lock-comment-face fontified t) 6294 6295 (c-in-sws t face font-lock-comment-face fontified t) 6295 6296 (c-is-sws t fontified t) 6296 6297 (c-in-sws t fontified t) 6297 6298 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6298 6299 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6299 6304 (c-in-sws t face font-lock-comment-face fontified t) 6304 6305 (face font-lock-keyword-face c-is-sws t fontified t) 6305 6313 (face font-lock-keyword-face fontified t) 6313 6314 (fontified t) 6314 6317 (face font-lock-type-face fontified t) 6317 6318 (face font-lock-type-face c-type c-decl-id-start fontified t) 6318 6319 (fontified t) 6319 6342 (face font-lock-variable-name-face fontified t) 6342 6350 (fontified t) 6350 6366 (c-is-sws t c-in-sws t fontified t) 6366 6367 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6367 6393 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6393 6394 (c-in-sws t face font-lock-comment-face fontified t) 6394 6395 (c-is-sws t face font-lock-keyword-face fontified t) 6395 6403 (face font-lock-keyword-face fontified t) 6403 6404 (fontified t) 6404 6407 (face font-lock-type-face fontified t) 6407 6408 (face font-lock-type-face c-type c-decl-id-start fontified t) 6408 6409 (fontified t) 6409 6424 (face font-lock-variable-name-face fontified t) 6424 6433 (fontified t) 6433 6456 (c-is-sws t c-in-sws t fontified t) 6456 6457 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6457 6458 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6458 6490 (c-in-sws t face font-lock-comment-face fontified t) 6490 6491 (c-is-sws t face font-lock-keyword-face fontified t) 6491 6499 (face font-lock-keyword-face fontified t) 6499 6500 (fontified t) 6500 6503 (face font-lock-type-face fontified t) 6503 6504 (face font-lock-type-face c-type c-decl-id-start fontified t) 6504 6505 (fontified t) 6505 6526 (face font-lock-variable-name-face fontified t) 6526 6535 (fontified t) 6535 6552 (c-is-sws t c-in-sws t fontified t) 6552 6553 (c-is-sws t c-in-sws t face font-lock-comment-delimiter-face fontified t) 6553 6554 (c-in-sws t face font-lock-comment-delimiter-face fontified t) 6554 6585 (c-in-sws t face font-lock-comment-face fontified t) 6585 6586 (c-is-sws t face font-lock-keyword-face fontified t) 6586 6594 (face font-lock-keyword-face fontified t) 6594 6595 (fontified t) 6595 6598 (face font-lock-type-face fontified t) 6598 6599 (face font-lock-type-face c-type c-decl-id-start fontified t) 6599 6600 (fontified t) 6600 6612 (face font-lock-variable-name-face fontified t) 6612 6621 (fontified t) 6621 6645 (c-is-sws t c-in-sws t fontified t) 6645 6646 (face font-lock-comment-delimiter-face c-is-sws t c-in-sws t fontified t) 6646 6685 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 6685 6686 (face font-lock-comment-face c-in-sws t fontified t) 6686 6687 (face font-lock-keyword-face c-is-sws t fontified t) 6687 6695 (face font-lock-keyword-face fontified t) 6695 6696 (fontified t) 6696 6699 (face font-lock-type-face fontified t) 6699 6700 (face font-lock-type-face c-type c-decl-id-start fontified t) 6700 6701 (fontified t) 6701 6722 (face font-lock-variable-name-face fontified t) 6722 6731 (fontified t) 6731 6748 (fontified t c-is-sws t c-in-sws t) 6748 6749 (face font-lock-comment-delimiter-face fontified t c-is-sws t c-in-sws t) 6749 6750 (face font-lock-comment-delimiter-face fontified t c-in-sws t) 6750 6807 (face font-lock-comment-face fontified t c-in-sws t) 6807 6808 (face font-lock-comment-face c-in-sws t fontified t) 6808 6809 (face font-lock-keyword-face fontified t c-is-sws t) 6809 6817 (face font-lock-keyword-face fontified t) 6817 6818 (fontified t) 6818 6821 (face font-lock-type-face fontified t) 6821 6822 (face font-lock-type-face c-type c-decl-id-start fontified t) 6822 6823 (fontified t) 6823 6842 (face font-lock-variable-name-face fontified t) 6842 6855 (fontified t) 6855 6871 (fontified t c-is-sws t c-in-sws t) 6871 6872 (face font-lock-comment-delimiter-face fontified t c-is-sws t c-in-sws t) 6872 6873 (face font-lock-comment-delimiter-face fontified t c-in-sws t) 6873 6890 (face font-lock-comment-face fontified t c-in-sws t) 6890 6891 (c-in-sws t face font-lock-comment-face fontified t)) . -1) (undo-tree-id0 . -6891) (undo-tree-id1 . -5239) (undo-tree-id2 . -1850) (undo-tree-id3 . -12) (undo-tree-id4 . -1483) (undo-tree-id5 . -1517) (undo-tree-id6 . -1850) (undo-tree-id7 . -1850) (undo-tree-id8 . -1850) (undo-tree-id9 . -1850) (undo-tree-id10 . -1850) (undo-tree-id11 . -1850) (undo-tree-id12 . -1850) (undo-tree-id13 . -1850) (undo-tree-id14 . -1850) (undo-tree-id15 . -1850) (undo-tree-id16 . -1850) (undo-tree-id17 . -1850) (undo-tree-id18 . -1850) (undo-tree-id19 . -1850) (undo-tree-id20 . -1850) (undo-tree-id21 . -1850) (undo-tree-id22 . -1850) (undo-tree-id23 . -1850) (undo-tree-id24 . -1850) (undo-tree-id25 . -1850) (undo-tree-id26 . -1850) (undo-tree-id27 . -1850) (undo-tree-id28 . -1850) (undo-tree-id29 . -1850) (undo-tree-id30 . -1850) (undo-tree-id31 . -1850) (undo-tree-id32 . -1850) (undo-tree-id33 . -1850) (undo-tree-id34 . -1850) (undo-tree-id35 . -1667) (undo-tree-id36 . -1569) (undo-tree-id37 . -1569) (undo-tree-id38 . -1569) (undo-tree-id39 . -1569) (undo-tree-id40 . -1569) (undo-tree-id41 . -1569) (undo-tree-id42 . -1569) (undo-tree-id43 . -1569) (undo-tree-id44 . -1569) (undo-tree-id45 . -1569) (undo-tree-id46 . -13) (undo-tree-id47 . -111) (undo-tree-id48 . -113) (undo-tree-id49 . -142) (undo-tree-id50 . -143) (undo-tree-id51 . -143) (undo-tree-id52 . -143) (undo-tree-id53 . -520) (undo-tree-id54 . -520) (undo-tree-id55 . -143) (undo-tree-id56 . -143) (undo-tree-id57 . -143) (undo-tree-id58 . -143) (undo-tree-id59 . -143) (undo-tree-id60 . -143) (undo-tree-id61 . -143) (undo-tree-id62 . -143) (undo-tree-id63 . -143) (undo-tree-id64 . -143) (undo-tree-id65 . -143) (undo-tree-id66 . -143) (undo-tree-id67 . -143) (undo-tree-id68 . -143) (undo-tree-id69 . -143) (undo-tree-id70 . -143) (undo-tree-id71 . -143) (undo-tree-id72 . -143) (undo-tree-id73 . -143) (undo-tree-id74 . -143) (undo-tree-id75 . -143) (undo-tree-id76 . -6891) (undo-tree-id77 . -6891) (undo-tree-id78 . -6891) (undo-tree-id79 . -6891) (undo-tree-id80 . -6891) (undo-tree-id81 . -6891) (undo-tree-id82 . -6891) (undo-tree-id83 . -6891) (t 26115 10896 482465 379000)) nil (26115 14233 930088 971000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 6892 . 6893) (nil fontified nil 6812 . 6893) (nil fontified nil 6811 . 6812) (nil fontified nil 6752 . 6811) (nil fontified nil 6734 . 6752) (nil fontified nil 158 . 6734) (nil fontified nil 157 . 158) (nil fontified nil 15 . 157) (nil fontified nil 14 . 15) (nil fontified nil 2 . 14) (nil fontified nil 1 . 2) (1 . 6893)) nil (26115 14233 929972 4000) 0 nil])
+([nil current ((6893 . 6894) 723) nil (26115 14233 929966 692000) 0 nil])
+nil

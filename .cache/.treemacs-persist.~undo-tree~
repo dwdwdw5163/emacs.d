@@ -317,7 +317,7 @@
 ** wh_robot
  - path :: ~/Project/wh_robot
 " . -1) (t 26022 27019 424361 384000)) nil (26022 33548 715714 990000) 0 nil])
-([nil current ((1 . 203) ("* Default
+([nil nil ((1 . 203) ("* Default
 ** learn_1_5
  - path :: ~/Project/learn_1_5
 ** learn_wgpu
@@ -325,4 +325,14 @@
 ** wh_robot
  - path :: ~/Project/wh_robot
 " . -1) (t 26022 33548 714759 40000)) nil (26035 49696 771136 167000) 0 nil])
+([nil current ((1 . 203) ("* Default
+** learn_1_5
+ - path :: ~/Project/learn_1_5
+** learn_wgpu
+ - path :: ~/Project/Rust/learn_wgpu
+** wh_robot
+ - path :: ~/Project/wh_robot
+** wh-robot-app
+ - path :: ~/Project/Rust/wh-robot-app
+" . -1) (t 26035 49696 768733 823000)) nil (26035 56162 548405 861000) 0 nil])
 nil

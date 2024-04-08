@@ -1,0 +1,102 @@
+use anyhow::Error;
+use vk_render::*;
+use winit::{
+    event::{Event, WindowEvent},
+    event_loop::{ControlFlow, EventLoop},
+    keyboard::{KeyCode, PhysicalKey},
+    window::{Window, WindowBuilder},
+};
+
+// Constants
+const WINDOW_TITLE: &'static str = "ASH Tutorial";
+const WINDOW_WIDTH: u32 = 800;
+const WINDOW_HEIGHT: u32 = 600;
+
+struct App {
+    window: winit::window::Window,
+    instance: vk_render::Instance,
+    debug_messager: vk_render::DebugMessager,
+    surface: vk_render::Surface,
+    device: vk_render::Device,
+    queue: vk_render::Queue,
+}
+
+impl App {
+    fn new(event_loop: &EventLoop<()>) -> App {
+        let window = App::create_window(event_loop).unwrap();
+        let instance = Instance::new().unwrap();
+        let debug_messager = DebugMessager::new(&instance);
+        let surface = Surface::new(&instance, &window);
+        let device = Device::new(&instance, &surface);
+        let queue = Queue::new(&device);
+
+        App {
+            window,
+            instance,
+            debug_messager,
+            surface,
+            device,
+            queue
+        }
+    }
+
+    fn create_window(event_loop: &EventLoop<()>) -> Result<Window, Error> {
+        let window = WindowBuilder::new()
+            .with_title(WINDOW_TITLE)
+            .with_inner_size(winit::dpi::LogicalSize::new(WINDOW_WIDTH, WINDOW_HEIGHT))
+            .build(event_loop)?;
+
+        Ok(window)
+    }
+
+    fn main_loop(&self, event_loop: winit::event_loop::EventLoop<()>) {
+        // ControlFlow::Poll continuously runs the event loop, even if the OS hasn't
+        // dispatched any events. This is ideal for games and similar applications.
+        event_loop.set_control_flow(ControlFlow::Poll);
+
+        let _ = event_loop.run(move |event, elwt| match event {
+            Event::WindowEvent {
+                event: WindowEvent::CloseRequested,
+                ..
+            } => {
+                println!("The close button was pressed; stopping");
+                elwt.exit();
+            }
+            Event::WindowEvent {
+                event: WindowEvent::KeyboardInput { event, .. },
+                ..
+            } => match event.physical_key {
+                PhysicalKey::Code(KeyCode::Escape) => {
+                    println!("The close key was pressed; stopping");
+                    elwt.exit();
+                }
+                _ => {}
+            },
+            Event::AboutToWait => {
+                self.window.request_redraw();
+            }
+            Event::WindowEvent {
+                event: WindowEvent::RedrawRequested,
+                ..
+            } => {}
+            _ => (),
+        });
+    }
+}
+
+impl Drop for App {
+    fn drop(&mut self) {
+        self.device.drop();
+        self.surface.drop();
+        self.debug_messager.drop();
+        self.instance.drop();
+    }
+}
+
+fn main() {
+    let subscriber = tracing_subscriber::fmt().with_max_level(tracing::Level::INFO).finish();
+    tracing::subscriber::set_global_default(subscriber).unwrap();
+    let event_loop = EventLoop::new().unwrap();
+    let app = App::new(&event_loop);
+    app.main_loop(event_loop);
+}

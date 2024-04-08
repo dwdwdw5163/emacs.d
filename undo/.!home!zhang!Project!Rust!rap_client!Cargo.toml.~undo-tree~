@@ -1,0 +1,5 @@
+(undo-tree-save-format-version . 1)
+"e677612c1b2e2f7d26d0ad79ce0f90b5f7d6889a"
+[nil nil nil nil (26116 12117 192127 624000) 0 nil]
+([nil current ((#("syscalls = \"0.6.18\"" 0 8 (face font-lock-variable-name-face fontified t) 8 11 (fontified t) 11 19 (face font-lock-string-face fontified t)) . 180) (undo-tree-id0 . -19) (t 26116 11624 271459 685000)) nil (26116 12117 192123 426000) 0 nil])
+nil

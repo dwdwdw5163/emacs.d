@@ -1,0 +1,3 @@
+pub struct SwapChain {
+    swap_chain_ext: ash::extensions::khr::Swapchain,
+}

@@ -221,13 +221,13 @@
 	    (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
 	    (:commit . "33770dec73138909714711b05a63e79da5a19ccd"))])
  (cider .
-	[(1 12 0)
+	[(1 13 1)
 	 ((emacs
 	   (26))
 	  (clojure-mode
 	   (5 18 1))
 	  (parseedn
-	   (1 2 0))
+	   (1 2 1))
 	  (queue
 	   (0 2))
 	  (spinner
@@ -249,7 +249,7 @@
 	   ("Artur Malabarba" . "bruce.connor.am@gmail.com")
 	   ("Hugo Duncan" . "hugo@hugoduncan.org")
 	   ("Steve Purcell" . "steve@sanityinc.com"))
-	  (:commit . "2bafc1ec67308de500ce7ce8ac8f79eae449dee8"))])
+	  (:commit . "06dc45844ad05fe23fccb7dec1609404e3cda88e"))])
  (clojure-mode .
 	       [(5 18 1)
 		((emacs
@@ -442,7 +442,7 @@
 	 ("Akib Azmain Turja" . "akib@disroot.org"))
 	(:commit . "c91451f2d17453c19d3fa76faa4945cbe54e14ce"))])
  (edit-indirect .
-		[(0 1 10)
+		[(0 1 13)
 		 ((emacs
 		   (24 3)))
 		 "Edit regions in separate buffers" tar
@@ -450,7 +450,7 @@
 		  (:maintainer "Fanael Linithien" . "fanael4@gmail.com")
 		  (:authors
 		   ("Fanael Linithien" . "fanael4@gmail.com"))
-		  (:commit . "f80f63822ffae78de38dbe72cacaeb1aaa96c732"))])
+		  (:commit . "82a28d8a85277cfe453af464603ea330eae41c05"))])
  (editorconfig .
 	       [(0 10 1)
 		((emacs
@@ -1857,7 +1857,7 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:keywords "convenience"))])
  (racket-mode .
-	      [(1 0 20231224 162603)
+	      [(1 0 20240130 151349)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
@@ -2016,15 +2016,15 @@
 	      ("Chen Bin" . "chenbin.sh@gmail.com"))
 	     (:commit . "4e71f5b9199a0ad10017104a6b2bf5ef5f207dfc"))])
  (slime .
-	[(2 28)
-	 ((cl-lib
-	   (0 5))
+	[(2 29 1)
+	 ((emacs
+	   (24 3))
 	  (macrostep
 	   (0 9)))
 	 "Superior Lisp Interaction Mode for Emacs" tar
 	 ((:url . "https://github.com/slime/slime")
 	  (:keywords "languages" "lisp" "slime")
-	  (:commit . "28adf1dca0eea36d113d942bbf050fa92150981d"))])
+	  (:commit . "3c343756704bdde829d07cd758473ddfcef95898"))])
  (sly .
       [(1 0 43)
        ((emacs
@@ -2113,7 +2113,7 @@
 	  (:maintainer "Sacha Chua" . "sacha@sachachua.com")
 	  (:commit . "e73c0a38039eb32fd43911023ff35007e324c733"))])
  (sweeprolog .
-	     [(0 27 3)
+	     [(0 27 4)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2124,7 +2124,7 @@
 	       (:maintainer "Eshel Yaron" . "~eshel/dev@lists.sr.ht")
 	       (:authors
 		("Eshel Yaron" . "me@eshelyaron.com"))
-	       (:commit . "52f506b3a3dd7e7003a44ad3ae5257b3d22025d2"))])
+	       (:commit . "799e1aebfd280ed6d00fb1034a3fed60de21c8d7"))])
  (swift-mode .
 	     [(9 1 0)
 	      ((emacs
@@ -2312,7 +2312,7 @@
 	       ("Daniel Semyonov" . "daniel@dsemy.com"))
 	      (:commit . "93ae3db40d07ae15e61d34c3c3870de5d2fce2de"))])
  (visual-fill-column .
-		     [(2 5 1)
+		     [(2 5 2)
 		      ((emacs
 			(25 1)))
 		      "fill-column for visual-line-mode" tar
@@ -2320,16 +2320,16 @@
 		       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
 		       (:authors
 			("Joost Kremers" . "joostkremers@fastmail.fm"))
-		       (:commit . "695a59789209c42fa08a5bce92963ee32f4455be"))])
+		       (:commit . "5e74afe39d0afb911dae51af4e7a60ccdf9701f3"))])
  (web-mode .
-	   [(17 3 17)
+	   [(17 3 18)
 	    ((emacs
 	      (23 1)))
 	    "major mode for editing web templates" tar
 	    ((:url . "https://web-mode.org")
 	     (:keywords "languages")
 	     (:maintainer "François-Xavier Bois" . "fxbois@gmail.com")
-	     (:commit . "82847071ce93293bdb7945db08d970f13fd883cf"))])
+	     (:commit . "208f32b98873f5381f6516f9de8424418e3cf16f"))])
  (webpaste .
 	   [(3 2 2)
 	    ((emacs
@@ -2433,14 +2433,14 @@
 	      (:authors
 	       ("Le Wang")))])
  (xah-fly-keys .
-	       [(24 19 20240101152046)
+	       [(24 20 20240120121202)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "d74760a2553f2b2275495ae99659451156639deb"))])
+		 (:commit . "0e5aa069fe7fc32c40c5ebd7272e31d70ebeb4dc"))])
  (xkcd .
        [(1 1)
 	((json

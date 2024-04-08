@@ -1,0 +1,113 @@
+(undo-tree-save-format-version . 1)
+"75fee6f10579838200bf34bb0adab45276ce9a63"
+[nil nil nil nil (26048 32161 342659 730000) 0 nil]
+([nil nil ((806 . 3221) (#("stm32f4xx_hal_def.h\"
+#include \"stm32f4xx_hal_uart.h\"
+#include \"tim.h\"
+#include \"usart.h\"
+#include \"gpio.h\"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include \"motor.h\"
+#include \"tracing.h\"
+#include <math.h>
+#include <stdint.h>
+#include <stdio.h>
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define BUF_LEN 12
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+uint8_t recv_buf[BUF_LEN] = {0};
+
+uint32_t loop_cnt = 0;
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
+extern int _write(int fd, char * ptr, int len)
+{
+  HAL_UART_Transmit(&huart1, (uint8_t *) ptr, len, HAL_MAX_DELAY);
+  //HAL_UART_Transmit_DMA(&huart1, (uint8_t *) ptr, len);
+  return len;
+}
+#ifdef __GNUC__
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
+
+PUTCHAR_PROTOTYPE
+{
+  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+  //HAL_UART_Transmit_DMA(&huart1, (uint8_t *)&ch, 1);
+  return ch;
+}
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_TIM1_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
+  MX_TIM5_Init();
+  MX_TIM8_Init();
+  MX_USART1_UART_Init();
+  MX_ADC1" 0 20 (face font-lock-string-face c-in-sws t fontified t) 20 21 (c-in-sws t fontified t) 21 22 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 22 29 (face font-lock-preprocessor-face c-in-sws t fontified t) 29 30 (c-in-sws t fontified t) 30 52 (face font-lock-string-face c-in-sws t fontified t) 52 53 (c-in-sws t fontified t) 53 54 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 54 61 (face font-lock-preprocessor-face c-in-sws t fontified t) 61 62 (c-in-sws t fontified t) 62 69 (face font-lock-string-face c-in-sws t fontified t) 69 70 (c-in-sws t fontified t) 70 71 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 71 78 (face font-lock-preprocessor-face c-in-sws t fontified t) 78 79 (c-in-sws t fontified t) 79 88 (face font-lock-string-face c-in-sws t fontified t) 88 89 (c-in-sws t fontified t) 89 90 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 90 97 (face font-lock-preprocessor-face c-in-sws t fontified t) 97 98 (c-in-sws t fontified t) 98 106 (face font-lock-string-face c-in-sws t fontified t) 106 107 (c-in-sws t fontified t) 107 108 (c-in-sws t fontified t) 108 109 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 109 111 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 111 186 (face font-lock-comment-face c-in-sws t fontified t) 186 188 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 188 189 (c-in-sws t fontified t) 189 192 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 192 216 (face font-lock-comment-face c-in-sws t fontified t) 216 219 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 219 220 (c-in-sws t fontified t) 220 221 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 221 228 (face font-lock-preprocessor-face c-in-sws t fontified t) 228 229 (c-in-sws t fontified t) 229 238 (face font-lock-string-face c-in-sws t fontified t) 238 239 (c-in-sws t fontified t) 239 240 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 240 247 (face font-lock-preprocessor-face c-in-sws t fontified t) 247 248 (c-in-sws t fontified t) 248 259 (face font-lock-string-face c-in-sws t fontified t) 259 260 (c-in-sws t fontified t) 260 261 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 261 268 (face font-lock-preprocessor-face c-in-sws t fontified t) 268 269 (c-in-sws t fontified t) 269 270 (category c-<-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 270 276 (face font-lock-string-face c-in-sws t fontified t) 276 277 (category c->-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 277 278 (c-in-sws t fontified t) 278 279 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 279 286 (face font-lock-preprocessor-face c-in-sws t fontified t) 286 287 (c-in-sws t fontified t) 287 288 (category c-<-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 288 296 (face font-lock-string-face c-in-sws t fontified t) 296 297 (category c->-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 297 298 (c-in-sws t fontified t) 298 299 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 299 306 (face font-lock-preprocessor-face c-in-sws t fontified t) 306 307 (c-in-sws t fontified t) 307 308 (category c-<-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 308 315 (face font-lock-string-face c-in-sws t fontified t) 315 316 (category c->-as-paren-syntax face (rainbow-delimiters-depth-1-face font-lock-string-face) c-in-sws t fontified t) 316 317 (c-in-sws t fontified t) 317 318 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 318 320 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 320 342 (face font-lock-comment-face c-in-sws t fontified t) 342 345 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 345 347 (c-in-sws t fontified t) 347 350 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 350 425 (face font-lock-comment-face c-in-sws t fontified t) 425 427 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 427 428 (c-in-sws t fontified t) 428 431 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 431 450 (face font-lock-comment-face c-in-sws t fontified t) 450 453 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 453 455 (c-in-sws t fontified t) 455 458 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 458 475 (face font-lock-comment-face c-in-sws t fontified t) 475 478 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 478 480 (c-in-sws t fontified t) 480 483 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 483 558 (face font-lock-comment-face c-in-sws t fontified t) 558 560 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 560 561 (c-in-sws t fontified t) 561 564 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 564 582 (face font-lock-comment-face c-in-sws t fontified t) 582 585 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 585 586 (c-in-sws t fontified t) 586 587 (face font-lock-preprocessor-face c-in-sws t c-is-sws t fontified t) 587 593 (face font-lock-preprocessor-face c-in-sws t fontified t) 593 594 (c-in-sws t fontified t) 594 601 (face font-lock-variable-name-face c-in-sws t fontified t) 601 605 (c-in-sws t fontified t) 605 606 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 606 608 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 608 624 (face font-lock-comment-face c-in-sws t fontified t) 624 627 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 627 628 (c-in-sws t fontified t) 628 629 (c-in-sws t c-is-sws t fontified t) 629 630 (face font-lock-comment-delimiter-face c-is-sws t fontified t) 630 632 (face font-lock-comment-delimiter-face fontified t) 632 695 (face font-lock-comment-face fontified t) 695 707 (face font-lock-comment-face fontified t) 707 709 (face font-lock-comment-delimiter-face fontified t) 709 710 (fontified t) 710 867 (fontified nil) 867 868 (c-is-sws t fontified nil) 868 1579 (fontified nil) 1579 1580 (c-is-sws t fontified nil) 1580 1799 (fontified nil) 1799 1800 (c-is-sws t fontified nil) 1800 1801 (fontified nil) 1801 1802 (c-type c-decl-id-start fontified nil) 1802 1803 (fontified nil) 1803 1807 (face font-lock-function-name-face fontified nil) 1807 2048 (fontified nil) 2048 2051 (c-is-sws t c-in-sws t fontified nil) 2051 2077 (c-in-sws t fontified nil) 2077 2078 (c-in-sws t fontified nil) 2078 2079 (c-is-sws t fontified t) 2079 2080 (c-in-sws t fontified t) 2080 2081 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2081 2083 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2083 2101 (face font-lock-comment-face c-in-sws t fontified t) 2101 2104 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2104 2105 (c-in-sws t fontified t) 2105 2106 (c-in-sws t fontified t) 2106 2107 (c-is-sws t fontified t) 2107 2108 (c-in-sws t fontified t) 2108 2109 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2109 2111 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2111 2137 (face font-lock-comment-face c-in-sws t fontified t) 2137 2140 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2140 2141 (c-in-sws t fontified t) 2141 2142 (fontified t) 2142 2143 (fontified t) 2143 2144 (c-is-sws t fontified t) 2144 2161 (fontified t) 2161 2162 (face (rainbow-delimiters-depth-2-face) fontified t) 2162 2163 (face (rainbow-delimiters-depth-2-face) fontified t) 2163 2165 (fontified t) 2165 2166 (fontified t) 2166 2168 (c-is-sws t c-in-sws t fontified t) 2168 2169 (face font-lock-comment-delimiter-face c-is-sws t c-in-sws t fontified t) 2169 2171 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2171 2194 (face font-lock-comment-face c-in-sws t fontified t) 2194 2197 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2197 2198 (c-in-sws t fontified t) 2198 2199 (c-is-sws t fontified t) 2199 2201 (c-is-sws t c-in-sws t fontified t) 2201 2202 (c-is-sws t face font-lock-comment-delimiter-face fontified t) 2202 2204 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2204 2225 (face font-lock-comment-face c-in-sws t fontified t) 2225 2228 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2228 2229 (c-in-sws t fontified t) 2229 2230 (fontified t) 2230 2231 (fontified t) 2231 2232 (c-in-sws t fontified t) 2232 2233 (face font-lock-comment-delimiter-face fontified t) 2233 2235 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2235 2272 (face font-lock-comment-face c-in-sws t fontified t) 2272 2275 (face font-lock-comment-delimiter-face c-in-sws t fontified t) 2275 2276 (c-in-sws t fontified t) 2276 2277 (fontified t) 2277 2278 (fontified t) 2278 2279 (c-is-sws t fontified t) 2279 2290 (fontified t) 2290 2291 (face (rainbow-delimiters-depth-2-face) fontified t) 2291 2292 (face (rainbow-delimiters-depth-2-face) fontified t) 2292 2294 (fontified t) 2294 2307 (fontified t) 2307 2308 (face (rainbow-delimiters-depth-2-face) fontified t) 2308 2309 (face (rainbow-delimiters-depth-2-face) fontified t) 2309 2311 (fontified t) 2311 2325 (fontified t) 2325 2326 (face (rainbow-delimiters-depth-2-face) fontified t) 2326 2327 (face (rainbow-delimiters-depth-2-face) fontified t) 2327 2343 (fontified t) 2343 2344 (face (rainbow-delimiters-depth-2-face) fontified t) 2344 2345 (face (rainbow-delimiters-depth-2-face) fontified t) 2345 2361 (fontified t) 2361 2362 (face (rainbow-delimiters-depth-2-face) fontified t) 2362 2363 (face (rainbow-delimiters-depth-2-face) fontified t) 2363 2379 (fontified t) 2379 2380 (face (rainbow-delimiters-depth-2-face) fontified t) 2380 2381 (face (rainbow-delimiters-depth-2-face) fontified t) 2381 2397 (fontified t) 2397 2398 (face (rainbow-delimiters-depth-2-face) fontified t) 2398 2399 (face (rainbow-delimiters-depth-2-face) fontified t) 2399 2401 (fontified t) 2401 2415 (fontified t) 2415 2416 (face (rainbow-delimiters-depth-2-face) fontified t) 2416 2417 (face (rainbow-delimiters-depth-2-face) fontified t) 2417 2419 (fontified t) 2419 2440 (fontified t) 2440 2441 (face (rainbow-delimiters-depth-2-face) fontified t) 2441 2442 (face (rainbow-delimiters-depth-2-face) fontified t) 2442 2444 (fontified t) 2444 2453 (fontified t)) . 806) (undo-tree-id16 . -2383) (undo-tree-id17 . -20) (t 26041 11911 361685 628000)) nil (26048 32161 342658 441000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . -1904) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) 1905 (t 26048 32127 193000 0)) nil (26048 32161 342655 521000) 0 nil])
+([nil nil ((1904 . 1905)) nil (26048 32161 342649 330000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . -2214) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) 2215) nil (26048 32161 342646 936000) 0 nil])
+([nil nil ((2214 . 2215)) nil (26048 32161 342615 422000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . -3364) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) 3365 (t 26048 32161 353666 857000)) nil (26048 32227 351703 57000) 0 nil])
+([nil current ((3364 . 3365)) nil (26048 32227 351661 625000) 0 nil])
+nil

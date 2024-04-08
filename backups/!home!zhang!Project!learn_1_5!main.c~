@@ -1,36 +1,13 @@
 #include "stdio.h"
 
-struct Trait_Print {
-  void (*print)(void *self);
-};
-
 
 struct Counter {
-  struct Trait_Print print;
   int count;
-  int (*impl_counter_increase)(struct Counter *);
+  
+    
 };
 
-int impl_counter_increase(struct Counter *self);
 
-struct Counter impl_counter_new() {
-  struct Counter self = {
-    .count = 0,
-    .impl_counter_increase = impl_counter_increase
-  };
-  return self;
-}
-
-int impl_counter_increase(struct Counter *self) {
-  return self->count++;
-}
-
-
-
-int main(int argc, const char **argv) {
-  struct Counter count = impl_counter_new();
-  printf("count is %d\r\n", count.impl_counter_increase(&count));
-  printf("count is %d\r\n", count.impl_counter_increase(&count));
-  printf("count is %d\r\n", count.impl_counter_increase(&count));  
+int main(int argc, const char **argv) {  
   return 0;
 }
